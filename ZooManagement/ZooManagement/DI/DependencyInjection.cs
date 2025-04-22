@@ -2,7 +2,7 @@
 using Domain.Interfaces;
 using Infrastructure.Events;
 using Infrastructure.Repositories;
-using Microsoft.Extensions.DependencyInjection;
+using Infrastructure.Services;
 
 public static class DependencyInjection
 {
@@ -20,9 +20,15 @@ public static class DependencyInjection
         services.AddSingleton<IEnclosureRepository, InMemoryEnclosureRepository>();
         services.AddSingleton<IFeedingScheduleRepository, InMemoryFeedingScheduleRepository>();
 
-        services.AddScoped<IDomainEventDispatcher, ConsoleEventDispatcher>();
+        services.AddSingleton<IDomainEventDispatcher, ConsoleEventDispatcher>();
+
+        services.AddSingleton<IHostedService>(provider =>
+            new FeedingSchedulerService(
+                provider.GetRequiredService<IFeedingScheduleRepository>(),
+                provider.GetRequiredService<IDomainEventDispatcher>()));
 
         return services;
     }
+
 
 }

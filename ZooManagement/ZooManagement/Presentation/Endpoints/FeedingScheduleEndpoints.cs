@@ -4,8 +4,25 @@ using Domain.ValueObjects;
 using Microsoft.AspNetCore.Mvc;
 using Presentation.DTOs;
 
+
+public static class FoodTypeHelper
+{
+    public static FoodType GetFoodType(string foodName)
+    {
+        try
+        {
+            return FoodType.FromString(foodName);
+        }
+        catch (ArgumentException)
+        {
+            return FoodType.GetRandom();
+        }
+    }
+}
 public static class FeedingScheduleEndpoints
 {
+
+
     private static FoodType GetFoodType(string foodName)
     {
         try
@@ -32,6 +49,78 @@ public static class FeedingScheduleEndpoints
         }
     }
 
+    public static RouteGroupBuilder MapFeedingScheduleApi(this RouteGroupBuilder group)
+    {
+        group.MapGet("/", async (IFeedingScheduleRepository repo) =>
+            Results.Ok(await repo.GetAllAsync()))
+            .WithName("GetAllFeedingSchedules")
+            .Produces<List<FeedingSchedule>>();
+
+        group.MapPost("/", AddFeedingSchedule)
+            .WithName("AddFeedingSchedule")
+            .Accepts<FeedingScheduleDto>("application/json")
+            .Produces(201)
+            .Produces(400)
+            .Produces(404);
+
+
+        group.MapPost("/{id}/complete", CompleteFeeding)
+            .WithName("CompleteFeeding")
+            .Produces(200, typeof(object))
+            .Produces(404, typeof(string))
+            .Produces(400, typeof(string));
+
+        return group;
+    }
+
+
+
+
+    private static async Task<IResult> AddFeedingSchedule(
+    [FromBody] FeedingScheduleDto dto,
+    IFeedingScheduleRepository repo,
+    IAnimalRepository animalRepo,
+    IDomainEventDispatcher dispatcher)
+    {
+        var animal = await animalRepo.GetByIdAsync(dto.AnimalId);
+        if (animal is null)
+            return Results.NotFound("Animal not found");
+
+        if (!TimeOnly.TryParse(dto.Time, out var time))
+            time = TimeOnly.FromDateTime(DateTime.Now);
+
+        var foodType = FoodTypeHelper.GetFoodType(dto.FoodType);
+
+        var schedule = new FeedingSchedule(
+            animal,
+            new FeedingTime(time),
+            foodType,
+            dispatcher);
+
+        await repo.AddAsync(schedule);
+
+        return Results.Created($"/feeding-schedules/{schedule.Id}", new
+        {
+            schedule.Id,
+            Time = time.ToString("HH:mm"),
+            FoodType = foodType.Name,
+            AnimalName = animal.Name
+        });
+    }
+
+    private static async Task<IResult> CompleteFeeding(
+        Guid id,
+        IFeedingScheduleRepository repo)
+    {
+        var schedule = await repo.GetByIdAsync(id);
+        if (schedule is null)
+            return Results.NotFound();
+
+        schedule.MarkAsCompleted();
+        await repo.UpdateAsync(schedule);
+
+        return Results.Ok(new { Message = "Feeding completed" });
+    }
 
     public static void MapFeedingScheduleEndpoints(this WebApplication app)
     {
@@ -47,10 +136,10 @@ public static class FeedingScheduleEndpoints
 
 
         group.MapPost("/", async (
-    [FromBody] FeedingScheduleDto dto,
-    IFeedingScheduleRepository repo,
-    IAnimalRepository animalRepo,
-    IDomainEventDispatcher dispatcher) =>
+        [FromBody] FeedingScheduleDto dto,
+        IFeedingScheduleRepository repo,
+        IAnimalRepository animalRepo,
+        IDomainEventDispatcher dispatcher) =>
         {
             var animal = await animalRepo.GetByIdAsync(dto.AnimalId);
             if (animal is null) return Results.NotFound("Animal not found");
@@ -83,16 +172,11 @@ public static class FeedingScheduleEndpoints
                 Animal = animal.Name
             });
         })
-.WithName("AddFeedingSchedule")
-.Accepts<FeedingScheduleDto>("application/json")
-.Produces(201)
-.Produces(400)
-.Produces(404);
-
-
-
-
-
+        .WithName("AddFeedingSchedule")
+        .Accepts<FeedingScheduleDto>("application/json")
+        .Produces(201)
+        .Produces(400)
+        .Produces(404);
 
         group.MapPost("/{id}/complete", async (
             Guid id,

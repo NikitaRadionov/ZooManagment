@@ -30,10 +30,33 @@ public sealed class FeedingOrganizationService
         await _feedingScheduleRepository.AddAsync(schedule);
     }
 
-    public async Task CompleteFeedingAsync(Guid scheduleId)
+    private static async Task<IResult> CompleteFeeding(
+    string idString,
+    IFeedingScheduleRepository repo)
     {
-        var schedule = await _feedingScheduleRepository.GetByIdAsync(scheduleId);
+        if (idString == "0")
+        {
+            idString = Guid.Empty.ToString();
+        }
+
+        if (!Guid.TryParse(idString, out var id))
+        {
+            return Results.BadRequest("Invalid GUID format");
+        }
+
+        var schedule = await repo.GetByIdAsync(id);
+        if (schedule is null)
+        {
+            return Results.NotFound($"Feeding schedule with ID {id} not found");
+        }
+
         schedule.MarkAsCompleted();
-        await _feedingScheduleRepository.UpdateAsync(schedule);
+        await repo.UpdateAsync(schedule);
+
+        return Results.Ok(new
+        {
+            Message = "Feeding completed",
+            ScheduleId = schedule.Id
+        });
     }
 }

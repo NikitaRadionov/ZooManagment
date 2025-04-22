@@ -1,8 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-
-using Swashbuckle.AspNetCore.SwaggerGen;
-
 namespace Presentation.DTOs;
 
 

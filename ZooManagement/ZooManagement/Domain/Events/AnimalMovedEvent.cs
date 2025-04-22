@@ -1,15 +1,17 @@
 ﻿using Domain.Entities;
 
 
-namespace Domain.Events;
-public class AnimalMovedEvent : DomainEvent
+namespace Domain.Events
 {
-    public Animal Animal { get; }
-    public Enclosure NewEnclosure { get; }
-
-    public AnimalMovedEvent(Animal animal, Enclosure newEnclosure)
+    public class AnimalMovedEvent : DomainEvent
     {
-        Animal = animal;
-        NewEnclosure = newEnclosure;
+        public Animal Animal { get; }
+        public Enclosure NewEnclosure { get; }
+
+        public AnimalMovedEvent(Animal animal, Enclosure newEnclosure)
+        {
+            Animal = animal;
+            NewEnclosure = newEnclosure;
+        }
     }
 }

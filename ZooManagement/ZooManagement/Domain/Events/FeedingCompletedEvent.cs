@@ -1,14 +1,16 @@
 ﻿using Domain.Entities;
 
-namespace Domain.Events;
-public class FeedingCompletedEvent : DomainEvent
+namespace Domain.Events
 {
-    public FeedingSchedule Schedule { get; }
-
-    public FeedingCompletedEvent(FeedingSchedule schedule)
+    public class FeedingCompletedEvent : DomainEvent
     {
-        Schedule = schedule;
+        public FeedingSchedule Schedule { get; }
+
+        public FeedingCompletedEvent(FeedingSchedule schedule)
+        {
+            Schedule = schedule;
+        }
+
+
     }
-
-
 }

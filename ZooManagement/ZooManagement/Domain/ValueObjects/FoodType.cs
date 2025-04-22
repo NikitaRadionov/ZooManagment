@@ -1,16 +1,14 @@
 ﻿
-namespace Domain.ValueObjects;
-
-
-
-public sealed record FoodType
+namespace Domain.ValueObjects
 {
-    public static FoodType Meat = new("Meat");
-    public static FoodType Vegetables = new("Vegetables");
-    public static FoodType Fish = new("Fish");
-    public static FoodType Grains = new("Grains");
+    public sealed record FoodType
+    {
+        public static FoodType Meat = new("Meat");
+        public static FoodType Vegetables = new("Vegetables");
+        public static FoodType Fish = new("Fish");
+        public static FoodType Grains = new("Grains");
 
-    private static readonly List<FoodType> _allFoodTypes = new()
+        private static readonly List<FoodType> _allFoodTypes = new()
     {
         Meat,
         Vegetables,
@@ -18,27 +16,28 @@ public sealed record FoodType
         Grains
     };
 
-    private static readonly Random _random = new();
+        private static readonly Random _random = new();
 
-    public string Name { get; }
+        public string Name { get; }
 
-    private FoodType(string name) => Name = name;
+        private FoodType(string name) => Name = name;
 
-    public static FoodType FromString(string foodName)
-    {
-        return foodName.ToLower() switch
+        public static FoodType FromString(string foodName)
         {
-            "meat" => Meat,
-            "vegetables" => Vegetables,
-            "fish" => Fish,
-            "grains" => Grains,
-            _ => throw new ArgumentException($"Invalid food type: {foodName}")
-        };
+            return foodName.ToLower() switch
+            {
+                "meat" => Meat,
+                "vegetables" => Vegetables,
+                "fish" => Fish,
+                "grains" => Grains,
+                _ => throw new ArgumentException($"Invalid food type: {foodName}")
+            };
+        }
+
+        public static FoodType GetRandom() =>
+            _allFoodTypes[_random.Next(_allFoodTypes.Count)];
+
+        public static List<string> GetValidTypes() =>
+            _allFoodTypes.Select(ft => ft.Name).ToList();
     }
-
-    public static FoodType GetRandom() =>
-        _allFoodTypes[_random.Next(_allFoodTypes.Count)];
-
-    public static List<string> GetValidTypes() =>
-        _allFoodTypes.Select(ft => ft.Name).ToList();
 }

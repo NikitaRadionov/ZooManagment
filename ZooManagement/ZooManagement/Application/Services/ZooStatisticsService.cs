@@ -1,12 +1,6 @@
 ﻿
 using Domain.Entities;
 using Domain.Interfaces;
-
-
-
-
-using static System.Runtime.InteropServices.JavaScript.JSType;
-using System.Security.Cryptography.Xml;
 namespace Application.Services;
 public sealed class ZooStatisticsService
 {

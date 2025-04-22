@@ -13,6 +13,12 @@ namespace Infrastructure.Events
             {
                 Console.WriteLine($"Animal {movedEvent.Animal.Name} moved to enclosure {movedEvent.NewEnclosure.Type.Name}");
             }
+            if (domainEvent is FeedingTimeEvent feedingEvent)
+            {
+                Console.WriteLine($"Time to feed {feedingEvent.Schedule.Animal.Name}! " +
+                    $"Food: {feedingEvent.Schedule.Food.Name}, " +
+                    $"Time: {feedingEvent.Schedule.Time.Time:HH:mm}");
+            }
 
             return Task.CompletedTask;
         }

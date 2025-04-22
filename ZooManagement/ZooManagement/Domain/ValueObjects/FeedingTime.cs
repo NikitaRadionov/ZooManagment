@@ -1,17 +1,18 @@
-﻿namespace Domain.ValueObjects;
-
-public sealed record FeedingTime
+﻿namespace Domain.ValueObjects
 {
-    public TimeOnly Time { get; }
-
-    public FeedingTime(TimeOnly time)
+    public sealed record FeedingTime
     {
-        if (time < TimeOnly.MinValue || time > TimeOnly.MaxValue)
-            throw new ArgumentException("Invalid feeding time");
+        public TimeOnly Time { get; }
 
-        Time = time;
+        public FeedingTime(TimeOnly time)
+        {
+            if (time < TimeOnly.MinValue || time > TimeOnly.MaxValue)
+                throw new ArgumentException("Invalid feeding time");
+
+            Time = time;
+        }
+        internal static FeedingTime Create(string time)
+        => new(TimeOnly.Parse(time));
+
     }
-    internal static FeedingTime Create(string time)
-    => new(TimeOnly.Parse(time));
-
 }

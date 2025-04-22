@@ -1,130 +1,142 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Nikita\\source\\repos\\ZooManagement\\",
+  "WorkspaceRootPath": "C:\\Users\\Nikita\\Desktop\\\u041A\u041F\u041E HW2\\\u041C\u043E\u0451\\githubb\\ZooManagment\\ZooManagement\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{669A3FAA-7C17-475F-8C3B-50038E067648}|ZooManagement\\ZooManagement.csproj|c:\\users\\nikita\\source\\repos\\zoomanagement\\zoomanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{669A3FAA-7C17-475F-8C3B-50038E067648}|ZooManagement\\ZooManagement.csproj|solutionrelative:zoomanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EA95BF60-F2DB-456F-9766-2BC81A11B133}|ZooManagement\\ZooManagement.csproj|c:\\users\\nikita\\desktop\\\u043A\u043F\u043E hw2\\\u043C\u043E\u0451\\githubb\\zoomanagment\\zoomanagement\\zoomanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA95BF60-F2DB-456F-9766-2BC81A11B133}|ZooManagement\\ZooManagement.csproj|solutionrelative:zoomanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{669A3FAA-7C17-475F-8C3B-50038E067648}|ZooManagement\\ZooManagement.csproj|c:\\users\\nikita\\source\\repos\\zoomanagement\\zoomanagement\\presentation\\endpoints\\feedingscheduleendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{669A3FAA-7C17-475F-8C3B-50038E067648}|ZooManagement\\ZooManagement.csproj|solutionrelative:zoomanagement\\presentation\\endpoints\\feedingscheduleendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EA95BF60-F2DB-456F-9766-2BC81A11B133}|ZooManagement\\ZooManagement.csproj|c:\\users\\nikita\\desktop\\\u043A\u043F\u043E hw2\\\u043C\u043E\u0451\\githubb\\zoomanagment\\zoomanagement\\zoomanagement\\domain\\events\\feedingcompletedevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA95BF60-F2DB-456F-9766-2BC81A11B133}|ZooManagement\\ZooManagement.csproj|solutionrelative:zoomanagement\\domain\\events\\feedingcompletedevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{669A3FAA-7C17-475F-8C3B-50038E067648}|ZooManagement\\ZooManagement.csproj|c:\\users\\nikita\\source\\repos\\zoomanagement\\zoomanagement\\presentation\\endpoints\\enclosureendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{669A3FAA-7C17-475F-8C3B-50038E067648}|ZooManagement\\ZooManagement.csproj|solutionrelative:zoomanagement\\presentation\\endpoints\\enclosureendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EA95BF60-F2DB-456F-9766-2BC81A11B133}|ZooManagement\\ZooManagement.csproj|c:\\users\\nikita\\desktop\\\u043A\u043F\u043E hw2\\\u043C\u043E\u0451\\githubb\\zoomanagment\\zoomanagement\\zoomanagement\\presentation\\endpoints\\animalendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA95BF60-F2DB-456F-9766-2BC81A11B133}|ZooManagement\\ZooManagement.csproj|solutionrelative:zoomanagement\\presentation\\endpoints\\animalendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{669A3FAA-7C17-475F-8C3B-50038E067648}|ZooManagement\\ZooManagement.csproj|c:\\users\\nikita\\source\\repos\\zoomanagement\\zoomanagement\\presentation\\endpoints\\animalendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{669A3FAA-7C17-475F-8C3B-50038E067648}|ZooManagement\\ZooManagement.csproj|solutionrelative:zoomanagement\\presentation\\endpoints\\animalendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EA95BF60-F2DB-456F-9766-2BC81A11B133}|ZooManagement\\ZooManagement.csproj|c:\\users\\nikita\\desktop\\\u043A\u043F\u043E hw2\\\u043C\u043E\u0451\\githubb\\zoomanagment\\zoomanagement\\zoomanagement\\application\\services\\animaltransferservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA95BF60-F2DB-456F-9766-2BC81A11B133}|ZooManagement\\ZooManagement.csproj|solutionrelative:zoomanagement\\application\\services\\animaltransferservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{669A3FAA-7C17-475F-8C3B-50038E067648}|ZooManagement\\ZooManagement.csproj|c:\\users\\nikita\\source\\repos\\zoomanagement\\zoomanagement\\presentation\\dtos\\feedingscheduledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{669A3FAA-7C17-475F-8C3B-50038E067648}|ZooManagement\\ZooManagement.csproj|solutionrelative:zoomanagement\\presentation\\dtos\\feedingscheduledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EA95BF60-F2DB-456F-9766-2BC81A11B133}|ZooManagement\\ZooManagement.csproj|c:\\users\\nikita\\desktop\\\u043A\u043F\u043E hw2\\\u043C\u043E\u0451\\githubb\\zoomanagment\\zoomanagement\\zoomanagement\\application\\services\\feedingorganizationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA95BF60-F2DB-456F-9766-2BC81A11B133}|ZooManagement\\ZooManagement.csproj|solutionrelative:zoomanagement\\application\\services\\feedingorganizationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{669A3FAA-7C17-475F-8C3B-50038E067648}|ZooManagement\\ZooManagement.csproj|c:\\users\\nikita\\source\\repos\\zoomanagement\\zoomanagement\\presentation\\dtos\\enclosuredto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{669A3FAA-7C17-475F-8C3B-50038E067648}|ZooManagement\\ZooManagement.csproj|solutionrelative:zoomanagement\\presentation\\dtos\\enclosuredto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EA95BF60-F2DB-456F-9766-2BC81A11B133}|ZooManagement\\ZooManagement.csproj|c:\\users\\nikita\\desktop\\\u043A\u043F\u043E hw2\\\u043C\u043E\u0451\\githubb\\zoomanagment\\zoomanagement\\zoomanagement\\application\\services\\zoostatisticsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA95BF60-F2DB-456F-9766-2BC81A11B133}|ZooManagement\\ZooManagement.csproj|solutionrelative:zoomanagement\\application\\services\\zoostatisticsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{669A3FAA-7C17-475F-8C3B-50038E067648}|ZooManagement\\ZooManagement.csproj|c:\\users\\nikita\\source\\repos\\zoomanagement\\zoomanagement\\presentation\\dtos\\animaldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{669A3FAA-7C17-475F-8C3B-50038E067648}|ZooManagement\\ZooManagement.csproj|solutionrelative:zoomanagement\\presentation\\dtos\\animaldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EA95BF60-F2DB-456F-9766-2BC81A11B133}|ZooManagement\\ZooManagement.csproj|c:\\users\\nikita\\desktop\\\u043A\u043F\u043E hw2\\\u043C\u043E\u0451\\githubb\\zoomanagment\\zoomanagement\\zoomanagement\\di\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA95BF60-F2DB-456F-9766-2BC81A11B133}|ZooManagement\\ZooManagement.csproj|solutionrelative:zoomanagement\\di\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{669A3FAA-7C17-475F-8C3B-50038E067648}|ZooManagement\\ZooManagement.csproj|c:\\users\\nikita\\source\\repos\\zoomanagement\\zoomanagement\\infrastructure\\repositories\\inmemoryfeedingschedulerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{669A3FAA-7C17-475F-8C3B-50038E067648}|ZooManagement\\ZooManagement.csproj|solutionrelative:zoomanagement\\infrastructure\\repositories\\inmemoryfeedingschedulerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EA95BF60-F2DB-456F-9766-2BC81A11B133}|ZooManagement\\ZooManagement.csproj|c:\\users\\nikita\\desktop\\\u043A\u043F\u043E hw2\\\u043C\u043E\u0451\\githubb\\zoomanagment\\zoomanagement\\zoomanagement\\domain\\entities\\animal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA95BF60-F2DB-456F-9766-2BC81A11B133}|ZooManagement\\ZooManagement.csproj|solutionrelative:zoomanagement\\domain\\entities\\animal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{669A3FAA-7C17-475F-8C3B-50038E067648}|ZooManagement\\ZooManagement.csproj|c:\\users\\nikita\\source\\repos\\zoomanagement\\zoomanagement\\infrastructure\\repositories\\inmemoryenclosurerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{669A3FAA-7C17-475F-8C3B-50038E067648}|ZooManagement\\ZooManagement.csproj|solutionrelative:zoomanagement\\infrastructure\\repositories\\inmemoryenclosurerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EA95BF60-F2DB-456F-9766-2BC81A11B133}|ZooManagement\\ZooManagement.csproj|c:\\users\\nikita\\desktop\\\u043A\u043F\u043E hw2\\\u043C\u043E\u0451\\githubb\\zoomanagment\\zoomanagement\\zoomanagement\\domain\\entities\\enclosure.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA95BF60-F2DB-456F-9766-2BC81A11B133}|ZooManagement\\ZooManagement.csproj|solutionrelative:zoomanagement\\domain\\entities\\enclosure.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{669A3FAA-7C17-475F-8C3B-50038E067648}|ZooManagement\\ZooManagement.csproj|c:\\users\\nikita\\source\\repos\\zoomanagement\\zoomanagement\\infrastructure\\repositories\\inmemoryanimalrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{669A3FAA-7C17-475F-8C3B-50038E067648}|ZooManagement\\ZooManagement.csproj|solutionrelative:zoomanagement\\infrastructure\\repositories\\inmemoryanimalrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EA95BF60-F2DB-456F-9766-2BC81A11B133}|ZooManagement\\ZooManagement.csproj|c:\\users\\nikita\\desktop\\\u043A\u043F\u043E hw2\\\u043C\u043E\u0451\\githubb\\zoomanagment\\zoomanagement\\zoomanagement\\domain\\entities\\feedingschedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA95BF60-F2DB-456F-9766-2BC81A11B133}|ZooManagement\\ZooManagement.csproj|solutionrelative:zoomanagement\\domain\\entities\\feedingschedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{669A3FAA-7C17-475F-8C3B-50038E067648}|ZooManagement\\ZooManagement.csproj|c:\\users\\nikita\\source\\repos\\zoomanagement\\zoomanagement\\infrastructure\\events\\consoleeventdispatcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{669A3FAA-7C17-475F-8C3B-50038E067648}|ZooManagement\\ZooManagement.csproj|solutionrelative:zoomanagement\\infrastructure\\events\\consoleeventdispatcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EA95BF60-F2DB-456F-9766-2BC81A11B133}|ZooManagement\\ZooManagement.csproj|c:\\users\\nikita\\desktop\\\u043A\u043F\u043E hw2\\\u043C\u043E\u0451\\githubb\\zoomanagment\\zoomanagement\\zoomanagement\\domain\\events\\animalmovedevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA95BF60-F2DB-456F-9766-2BC81A11B133}|ZooManagement\\ZooManagement.csproj|solutionrelative:zoomanagement\\domain\\events\\animalmovedevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{669A3FAA-7C17-475F-8C3B-50038E067648}|ZooManagement\\ZooManagement.csproj|c:\\users\\nikita\\source\\repos\\zoomanagement\\zoomanagement\\domain\\valueobjects\\foodtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{669A3FAA-7C17-475F-8C3B-50038E067648}|ZooManagement\\ZooManagement.csproj|solutionrelative:zoomanagement\\domain\\valueobjects\\foodtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EA95BF60-F2DB-456F-9766-2BC81A11B133}|ZooManagement\\ZooManagement.csproj|c:\\users\\nikita\\desktop\\\u043A\u043F\u043E hw2\\\u043C\u043E\u0451\\githubb\\zoomanagment\\zoomanagement\\zoomanagement\\domain\\events\\domainevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA95BF60-F2DB-456F-9766-2BC81A11B133}|ZooManagement\\ZooManagement.csproj|solutionrelative:zoomanagement\\domain\\events\\domainevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{669A3FAA-7C17-475F-8C3B-50038E067648}|ZooManagement\\ZooManagement.csproj|c:\\users\\nikita\\source\\repos\\zoomanagement\\zoomanagement\\domain\\valueobjects\\feedingtime.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{669A3FAA-7C17-475F-8C3B-50038E067648}|ZooManagement\\ZooManagement.csproj|solutionrelative:zoomanagement\\domain\\valueobjects\\feedingtime.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EA95BF60-F2DB-456F-9766-2BC81A11B133}|ZooManagement\\ZooManagement.csproj|c:\\users\\nikita\\desktop\\\u043A\u043F\u043E hw2\\\u043C\u043E\u0451\\githubb\\zoomanagment\\zoomanagement\\zoomanagement\\domain\\events\\feedingtimeevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA95BF60-F2DB-456F-9766-2BC81A11B133}|ZooManagement\\ZooManagement.csproj|solutionrelative:zoomanagement\\domain\\events\\feedingtimeevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{669A3FAA-7C17-475F-8C3B-50038E067648}|ZooManagement\\ZooManagement.csproj|c:\\users\\nikita\\source\\repos\\zoomanagement\\zoomanagement\\domain\\valueobjects\\enclosuretype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{669A3FAA-7C17-475F-8C3B-50038E067648}|ZooManagement\\ZooManagement.csproj|solutionrelative:zoomanagement\\domain\\valueobjects\\enclosuretype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EA95BF60-F2DB-456F-9766-2BC81A11B133}|ZooManagement\\ZooManagement.csproj|c:\\users\\nikita\\desktop\\\u043A\u043F\u043E hw2\\\u043C\u043E\u0451\\githubb\\zoomanagment\\zoomanagement\\zoomanagement\\domain\\events\\mediatrdomaineventdispatcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA95BF60-F2DB-456F-9766-2BC81A11B133}|ZooManagement\\ZooManagement.csproj|solutionrelative:zoomanagement\\domain\\events\\mediatrdomaineventdispatcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{669A3FAA-7C17-475F-8C3B-50038E067648}|ZooManagement\\ZooManagement.csproj|c:\\users\\nikita\\source\\repos\\zoomanagement\\zoomanagement\\domain\\valueobjects\\animalspecies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{669A3FAA-7C17-475F-8C3B-50038E067648}|ZooManagement\\ZooManagement.csproj|solutionrelative:zoomanagement\\domain\\valueobjects\\animalspecies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EA95BF60-F2DB-456F-9766-2BC81A11B133}|ZooManagement\\ZooManagement.csproj|c:\\users\\nikita\\desktop\\\u043A\u043F\u043E hw2\\\u043C\u043E\u0451\\githubb\\zoomanagment\\zoomanagement\\zoomanagement\\domain\\interfaces\\ianimalrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA95BF60-F2DB-456F-9766-2BC81A11B133}|ZooManagement\\ZooManagement.csproj|solutionrelative:zoomanagement\\domain\\interfaces\\ianimalrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{669A3FAA-7C17-475F-8C3B-50038E067648}|ZooManagement\\ZooManagement.csproj|c:\\users\\nikita\\source\\repos\\zoomanagement\\zoomanagement\\domain\\interfaces\\imediator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{669A3FAA-7C17-475F-8C3B-50038E067648}|ZooManagement\\ZooManagement.csproj|solutionrelative:zoomanagement\\domain\\interfaces\\imediator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EA95BF60-F2DB-456F-9766-2BC81A11B133}|ZooManagement\\ZooManagement.csproj|c:\\users\\nikita\\desktop\\\u043A\u043F\u043E hw2\\\u043C\u043E\u0451\\githubb\\zoomanagment\\zoomanagement\\zoomanagement\\domain\\interfaces\\idomaineventdispatcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA95BF60-F2DB-456F-9766-2BC81A11B133}|ZooManagement\\ZooManagement.csproj|solutionrelative:zoomanagement\\domain\\interfaces\\idomaineventdispatcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{669A3FAA-7C17-475F-8C3B-50038E067648}|ZooManagement\\ZooManagement.csproj|c:\\users\\nikita\\source\\repos\\zoomanagement\\zoomanagement\\domain\\interfaces\\ifeedingschedulerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{669A3FAA-7C17-475F-8C3B-50038E067648}|ZooManagement\\ZooManagement.csproj|solutionrelative:zoomanagement\\domain\\interfaces\\ifeedingschedulerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EA95BF60-F2DB-456F-9766-2BC81A11B133}|ZooManagement\\ZooManagement.csproj|c:\\users\\nikita\\desktop\\\u043A\u043F\u043E hw2\\\u043C\u043E\u0451\\githubb\\zoomanagment\\zoomanagement\\zoomanagement\\domain\\interfaces\\ienclosurerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA95BF60-F2DB-456F-9766-2BC81A11B133}|ZooManagement\\ZooManagement.csproj|solutionrelative:zoomanagement\\domain\\interfaces\\ienclosurerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{669A3FAA-7C17-475F-8C3B-50038E067648}|ZooManagement\\ZooManagement.csproj|c:\\users\\nikita\\source\\repos\\zoomanagement\\zoomanagement\\domain\\interfaces\\ienclosurerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{669A3FAA-7C17-475F-8C3B-50038E067648}|ZooManagement\\ZooManagement.csproj|solutionrelative:zoomanagement\\domain\\interfaces\\ienclosurerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EA95BF60-F2DB-456F-9766-2BC81A11B133}|ZooManagement\\ZooManagement.csproj|c:\\users\\nikita\\desktop\\\u043A\u043F\u043E hw2\\\u043C\u043E\u0451\\githubb\\zoomanagment\\zoomanagement\\zoomanagement\\domain\\interfaces\\ifeedingschedulerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA95BF60-F2DB-456F-9766-2BC81A11B133}|ZooManagement\\ZooManagement.csproj|solutionrelative:zoomanagement\\domain\\interfaces\\ifeedingschedulerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{669A3FAA-7C17-475F-8C3B-50038E067648}|ZooManagement\\ZooManagement.csproj|c:\\users\\nikita\\source\\repos\\zoomanagement\\zoomanagement\\domain\\interfaces\\idomaineventdispatcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{669A3FAA-7C17-475F-8C3B-50038E067648}|ZooManagement\\ZooManagement.csproj|solutionrelative:zoomanagement\\domain\\interfaces\\idomaineventdispatcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EA95BF60-F2DB-456F-9766-2BC81A11B133}|ZooManagement\\ZooManagement.csproj|c:\\users\\nikita\\desktop\\\u043A\u043F\u043E hw2\\\u043C\u043E\u0451\\githubb\\zoomanagment\\zoomanagement\\zoomanagement\\domain\\interfaces\\imediator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA95BF60-F2DB-456F-9766-2BC81A11B133}|ZooManagement\\ZooManagement.csproj|solutionrelative:zoomanagement\\domain\\interfaces\\imediator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{669A3FAA-7C17-475F-8C3B-50038E067648}|ZooManagement\\ZooManagement.csproj|c:\\users\\nikita\\source\\repos\\zoomanagement\\zoomanagement\\domain\\interfaces\\ianimalrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{669A3FAA-7C17-475F-8C3B-50038E067648}|ZooManagement\\ZooManagement.csproj|solutionrelative:zoomanagement\\domain\\interfaces\\ianimalrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EA95BF60-F2DB-456F-9766-2BC81A11B133}|ZooManagement\\ZooManagement.csproj|c:\\users\\nikita\\desktop\\\u043A\u043F\u043E hw2\\\u043C\u043E\u0451\\githubb\\zoomanagment\\zoomanagement\\zoomanagement\\domain\\valueobjects\\animalspecies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA95BF60-F2DB-456F-9766-2BC81A11B133}|ZooManagement\\ZooManagement.csproj|solutionrelative:zoomanagement\\domain\\valueobjects\\animalspecies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{669A3FAA-7C17-475F-8C3B-50038E067648}|ZooManagement\\ZooManagement.csproj|c:\\users\\nikita\\source\\repos\\zoomanagement\\zoomanagement\\domain\\events\\mediatrdomaineventdispatcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{669A3FAA-7C17-475F-8C3B-50038E067648}|ZooManagement\\ZooManagement.csproj|solutionrelative:zoomanagement\\domain\\events\\mediatrdomaineventdispatcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EA95BF60-F2DB-456F-9766-2BC81A11B133}|ZooManagement\\ZooManagement.csproj|c:\\users\\nikita\\desktop\\\u043A\u043F\u043E hw2\\\u043C\u043E\u0451\\githubb\\zoomanagment\\zoomanagement\\zoomanagement\\domain\\valueobjects\\enclosuretype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA95BF60-F2DB-456F-9766-2BC81A11B133}|ZooManagement\\ZooManagement.csproj|solutionrelative:zoomanagement\\domain\\valueobjects\\enclosuretype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{669A3FAA-7C17-475F-8C3B-50038E067648}|ZooManagement\\ZooManagement.csproj|c:\\users\\nikita\\source\\repos\\zoomanagement\\zoomanagement\\domain\\events\\feedingcompletedevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{669A3FAA-7C17-475F-8C3B-50038E067648}|ZooManagement\\ZooManagement.csproj|solutionrelative:zoomanagement\\domain\\events\\feedingcompletedevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EA95BF60-F2DB-456F-9766-2BC81A11B133}|ZooManagement\\ZooManagement.csproj|c:\\users\\nikita\\desktop\\\u043A\u043F\u043E hw2\\\u043C\u043E\u0451\\githubb\\zoomanagment\\zoomanagement\\zoomanagement\\domain\\valueobjects\\feedingtime.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA95BF60-F2DB-456F-9766-2BC81A11B133}|ZooManagement\\ZooManagement.csproj|solutionrelative:zoomanagement\\domain\\valueobjects\\feedingtime.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{669A3FAA-7C17-475F-8C3B-50038E067648}|ZooManagement\\ZooManagement.csproj|c:\\users\\nikita\\source\\repos\\zoomanagement\\zoomanagement\\domain\\events\\domainevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{669A3FAA-7C17-475F-8C3B-50038E067648}|ZooManagement\\ZooManagement.csproj|solutionrelative:zoomanagement\\domain\\events\\domainevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EA95BF60-F2DB-456F-9766-2BC81A11B133}|ZooManagement\\ZooManagement.csproj|c:\\users\\nikita\\desktop\\\u043A\u043F\u043E hw2\\\u043C\u043E\u0451\\githubb\\zoomanagment\\zoomanagement\\zoomanagement\\domain\\valueobjects\\foodtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA95BF60-F2DB-456F-9766-2BC81A11B133}|ZooManagement\\ZooManagement.csproj|solutionrelative:zoomanagement\\domain\\valueobjects\\foodtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{669A3FAA-7C17-475F-8C3B-50038E067648}|ZooManagement\\ZooManagement.csproj|c:\\users\\nikita\\source\\repos\\zoomanagement\\zoomanagement\\domain\\events\\animalmovedevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{669A3FAA-7C17-475F-8C3B-50038E067648}|ZooManagement\\ZooManagement.csproj|solutionrelative:zoomanagement\\domain\\events\\animalmovedevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EA95BF60-F2DB-456F-9766-2BC81A11B133}|ZooManagement\\ZooManagement.csproj|c:\\users\\nikita\\desktop\\\u043A\u043F\u043E hw2\\\u043C\u043E\u0451\\githubb\\zoomanagment\\zoomanagement\\zoomanagement\\infrastructure\\services\\feedingschedulerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA95BF60-F2DB-456F-9766-2BC81A11B133}|ZooManagement\\ZooManagement.csproj|solutionrelative:zoomanagement\\infrastructure\\services\\feedingschedulerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{669A3FAA-7C17-475F-8C3B-50038E067648}|ZooManagement\\ZooManagement.csproj|c:\\users\\nikita\\source\\repos\\zoomanagement\\zoomanagement\\domain\\entities\\feedingschedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{669A3FAA-7C17-475F-8C3B-50038E067648}|ZooManagement\\ZooManagement.csproj|solutionrelative:zoomanagement\\domain\\entities\\feedingschedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EA95BF60-F2DB-456F-9766-2BC81A11B133}|ZooManagement\\ZooManagement.csproj|c:\\users\\nikita\\desktop\\\u043A\u043F\u043E hw2\\\u043C\u043E\u0451\\githubb\\zoomanagment\\zoomanagement\\zoomanagement\\infrastructure\\repositories\\inmemoryfeedingschedulerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA95BF60-F2DB-456F-9766-2BC81A11B133}|ZooManagement\\ZooManagement.csproj|solutionrelative:zoomanagement\\infrastructure\\repositories\\inmemoryfeedingschedulerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{669A3FAA-7C17-475F-8C3B-50038E067648}|ZooManagement\\ZooManagement.csproj|c:\\users\\nikita\\source\\repos\\zoomanagement\\zoomanagement\\domain\\entities\\enclosure.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{669A3FAA-7C17-475F-8C3B-50038E067648}|ZooManagement\\ZooManagement.csproj|solutionrelative:zoomanagement\\domain\\entities\\enclosure.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EA95BF60-F2DB-456F-9766-2BC81A11B133}|ZooManagement\\ZooManagement.csproj|c:\\users\\nikita\\desktop\\\u043A\u043F\u043E hw2\\\u043C\u043E\u0451\\githubb\\zoomanagment\\zoomanagement\\zoomanagement\\infrastructure\\repositories\\inmemoryenclosurerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA95BF60-F2DB-456F-9766-2BC81A11B133}|ZooManagement\\ZooManagement.csproj|solutionrelative:zoomanagement\\infrastructure\\repositories\\inmemoryenclosurerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{669A3FAA-7C17-475F-8C3B-50038E067648}|ZooManagement\\ZooManagement.csproj|c:\\users\\nikita\\source\\repos\\zoomanagement\\zoomanagement\\domain\\entities\\animal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{669A3FAA-7C17-475F-8C3B-50038E067648}|ZooManagement\\ZooManagement.csproj|solutionrelative:zoomanagement\\domain\\entities\\animal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EA95BF60-F2DB-456F-9766-2BC81A11B133}|ZooManagement\\ZooManagement.csproj|c:\\users\\nikita\\desktop\\\u043A\u043F\u043E hw2\\\u043C\u043E\u0451\\githubb\\zoomanagment\\zoomanagement\\zoomanagement\\infrastructure\\repositories\\inmemoryanimalrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA95BF60-F2DB-456F-9766-2BC81A11B133}|ZooManagement\\ZooManagement.csproj|solutionrelative:zoomanagement\\infrastructure\\repositories\\inmemoryanimalrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{669A3FAA-7C17-475F-8C3B-50038E067648}|ZooManagement\\ZooManagement.csproj|c:\\users\\nikita\\source\\repos\\zoomanagement\\zoomanagement\\controllers\\controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{669A3FAA-7C17-475F-8C3B-50038E067648}|ZooManagement\\ZooManagement.csproj|solutionrelative:zoomanagement\\controllers\\controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EA95BF60-F2DB-456F-9766-2BC81A11B133}|ZooManagement\\ZooManagement.csproj|c:\\users\\nikita\\desktop\\\u043A\u043F\u043E hw2\\\u043C\u043E\u0451\\githubb\\zoomanagment\\zoomanagement\\zoomanagement\\infrastructure\\events\\consoleeventdispatcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA95BF60-F2DB-456F-9766-2BC81A11B133}|ZooManagement\\ZooManagement.csproj|solutionrelative:zoomanagement\\infrastructure\\events\\consoleeventdispatcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{669A3FAA-7C17-475F-8C3B-50038E067648}|ZooManagement\\ZooManagement.csproj|c:\\users\\nikita\\source\\repos\\zoomanagement\\zoomanagement\\application\\services\\animaltransferservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{669A3FAA-7C17-475F-8C3B-50038E067648}|ZooManagement\\ZooManagement.csproj|solutionrelative:zoomanagement\\application\\services\\animaltransferservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EA95BF60-F2DB-456F-9766-2BC81A11B133}|ZooManagement\\ZooManagement.csproj|c:\\users\\nikita\\desktop\\\u043A\u043F\u043E hw2\\\u043C\u043E\u0451\\githubb\\zoomanagment\\zoomanagement\\zoomanagement\\presentation\\endpoints\\feedingscheduleendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA95BF60-F2DB-456F-9766-2BC81A11B133}|ZooManagement\\ZooManagement.csproj|solutionrelative:zoomanagement\\presentation\\endpoints\\feedingscheduleendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{669A3FAA-7C17-475F-8C3B-50038E067648}|ZooManagement\\ZooManagement.csproj|c:\\users\\nikita\\source\\repos\\zoomanagement\\zoomanagement\\zoomanagement.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{669A3FAA-7C17-475F-8C3B-50038E067648}|ZooManagement\\ZooManagement.csproj|solutionrelative:zoomanagement\\zoomanagement.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{EA95BF60-F2DB-456F-9766-2BC81A11B133}|ZooManagement\\ZooManagement.csproj|c:\\users\\nikita\\desktop\\\u043A\u043F\u043E hw2\\\u043C\u043E\u0451\\githubb\\zoomanagment\\zoomanagement\\zoomanagement\\presentation\\endpoints\\enclosureendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA95BF60-F2DB-456F-9766-2BC81A11B133}|ZooManagement\\ZooManagement.csproj|solutionrelative:zoomanagement\\presentation\\endpoints\\enclosureendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{669A3FAA-7C17-475F-8C3B-50038E067648}|ZooManagement\\ZooManagement.csproj|c:\\users\\nikita\\source\\repos\\zoomanagement\\zoomanagement\\di\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{669A3FAA-7C17-475F-8C3B-50038E067648}|ZooManagement\\ZooManagement.csproj|solutionrelative:zoomanagement\\di\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EA95BF60-F2DB-456F-9766-2BC81A11B133}|ZooManagement\\ZooManagement.csproj|c:\\users\\nikita\\desktop\\\u043A\u043F\u043E hw2\\\u043C\u043E\u0451\\githubb\\zoomanagment\\zoomanagement\\zoomanagement\\presentation\\dtos\\transferrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA95BF60-F2DB-456F-9766-2BC81A11B133}|ZooManagement\\ZooManagement.csproj|solutionrelative:zoomanagement\\presentation\\dtos\\transferrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA95BF60-F2DB-456F-9766-2BC81A11B133}|ZooManagement\\ZooManagement.csproj|c:\\users\\nikita\\desktop\\\u043A\u043F\u043E hw2\\\u043C\u043E\u0451\\githubb\\zoomanagment\\zoomanagement\\zoomanagement\\presentation\\dtos\\feedingscheduledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA95BF60-F2DB-456F-9766-2BC81A11B133}|ZooManagement\\ZooManagement.csproj|solutionrelative:zoomanagement\\presentation\\dtos\\feedingscheduledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA95BF60-F2DB-456F-9766-2BC81A11B133}|ZooManagement\\ZooManagement.csproj|c:\\users\\nikita\\desktop\\\u043A\u043F\u043E hw2\\\u043C\u043E\u0451\\githubb\\zoomanagment\\zoomanagement\\zoomanagement\\presentation\\dtos\\enclosuredto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA95BF60-F2DB-456F-9766-2BC81A11B133}|ZooManagement\\ZooManagement.csproj|solutionrelative:zoomanagement\\presentation\\dtos\\enclosuredto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA95BF60-F2DB-456F-9766-2BC81A11B133}|ZooManagement\\ZooManagement.csproj|c:\\users\\nikita\\desktop\\\u043A\u043F\u043E hw2\\\u043C\u043E\u0451\\githubb\\zoomanagment\\zoomanagement\\zoomanagement\\presentation\\dtos\\animaldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA95BF60-F2DB-456F-9766-2BC81A11B133}|ZooManagement\\ZooManagement.csproj|solutionrelative:zoomanagement\\presentation\\dtos\\animaldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -133,8 +145,8 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 249,
-          "SelectedChildIndex": 7,
+          "DockedWidth": 277,
+          "SelectedChildIndex": 33,
           "Children": [
             {
               "$type": "Bookmark",
@@ -150,381 +162,418 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FeedingCompletedEvent.cs",
+              "DocumentMoniker": "C:\\Users\\Nikita\\Desktop\\\u041A\u041F\u041E HW2\\\u041C\u043E\u0451\\githubb\\ZooManagment\\ZooManagement\\ZooManagement\\Domain\\Events\\FeedingCompletedEvent.cs",
+              "RelativeDocumentMoniker": "ZooManagement\\Domain\\Events\\FeedingCompletedEvent.cs",
+              "ToolTip": "C:\\Users\\Nikita\\Desktop\\\u041A\u041F\u041E HW2\\\u041C\u043E\u0451\\githubb\\ZooManagment\\ZooManagement\\ZooManagement\\Domain\\Events\\FeedingCompletedEvent.cs",
+              "RelativeToolTip": "ZooManagement\\Domain\\Events\\FeedingCompletedEvent.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T09:19:58.29Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DomainEvent.cs",
+              "DocumentMoniker": "C:\\Users\\Nikita\\Desktop\\\u041A\u041F\u041E HW2\\\u041C\u043E\u0451\\githubb\\ZooManagment\\ZooManagement\\ZooManagement\\Domain\\Events\\DomainEvent.cs",
+              "RelativeDocumentMoniker": "ZooManagement\\Domain\\Events\\DomainEvent.cs",
+              "ToolTip": "C:\\Users\\Nikita\\Desktop\\\u041A\u041F\u041E HW2\\\u041C\u043E\u0451\\githubb\\ZooManagment\\ZooManagement\\ZooManagement\\Domain\\Events\\DomainEvent.cs",
+              "RelativeToolTip": "ZooManagement\\Domain\\Events\\DomainEvent.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T09:19:17.168Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "MediatrDomainEventDispatcher.cs",
+              "DocumentMoniker": "C:\\Users\\Nikita\\Desktop\\\u041A\u041F\u041E HW2\\\u041C\u043E\u0451\\githubb\\ZooManagment\\ZooManagement\\ZooManagement\\Domain\\Events\\MediatrDomainEventDispatcher.cs",
+              "RelativeDocumentMoniker": "ZooManagement\\Domain\\Events\\MediatrDomainEventDispatcher.cs",
+              "ToolTip": "C:\\Users\\Nikita\\Desktop\\\u041A\u041F\u041E HW2\\\u041C\u043E\u0451\\githubb\\ZooManagment\\ZooManagement\\ZooManagement\\Domain\\Events\\MediatrDomainEventDispatcher.cs",
+              "RelativeToolTip": "ZooManagement\\Domain\\Events\\MediatrDomainEventDispatcher.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T09:19:44.42Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "FeedingTimeEvent.cs",
+              "DocumentMoniker": "C:\\Users\\Nikita\\Desktop\\\u041A\u041F\u041E HW2\\\u041C\u043E\u0451\\githubb\\ZooManagment\\ZooManagement\\ZooManagement\\Domain\\Events\\FeedingTimeEvent.cs",
+              "RelativeDocumentMoniker": "ZooManagement\\Domain\\Events\\FeedingTimeEvent.cs",
+              "ToolTip": "C:\\Users\\Nikita\\Desktop\\\u041A\u041F\u041E HW2\\\u041C\u043E\u0451\\githubb\\ZooManagment\\ZooManagement\\ZooManagement\\Domain\\Events\\FeedingTimeEvent.cs",
+              "RelativeToolTip": "ZooManagement\\Domain\\Events\\FeedingTimeEvent.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T09:19:28.179Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "IMediator.cs",
+              "DocumentMoniker": "C:\\Users\\Nikita\\Desktop\\\u041A\u041F\u041E HW2\\\u041C\u043E\u0451\\githubb\\ZooManagment\\ZooManagement\\ZooManagement\\Domain\\Interfaces\\IMediator.cs",
+              "RelativeDocumentMoniker": "ZooManagement\\Domain\\Interfaces\\IMediator.cs",
+              "ToolTip": "C:\\Users\\Nikita\\Desktop\\\u041A\u041F\u041E HW2\\\u041C\u043E\u0451\\githubb\\ZooManagment\\ZooManagement\\ZooManagement\\Domain\\Interfaces\\IMediator.cs",
+              "RelativeToolTip": "ZooManagement\\Domain\\Interfaces\\IMediator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T09:18:46.92Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IFeedingScheduleRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Nikita\\Desktop\\\u041A\u041F\u041E HW2\\\u041C\u043E\u0451\\githubb\\ZooManagment\\ZooManagement\\ZooManagement\\Domain\\Interfaces\\IFeedingScheduleRepository.cs",
+              "RelativeDocumentMoniker": "ZooManagement\\Domain\\Interfaces\\IFeedingScheduleRepository.cs",
+              "ToolTip": "C:\\Users\\Nikita\\Desktop\\\u041A\u041F\u041E HW2\\\u041C\u043E\u0451\\githubb\\ZooManagment\\ZooManagement\\ZooManagement\\Domain\\Interfaces\\IFeedingScheduleRepository.cs",
+              "RelativeToolTip": "ZooManagement\\Domain\\Interfaces\\IFeedingScheduleRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T09:18:43.192Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "IEnclosureRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Nikita\\Desktop\\\u041A\u041F\u041E HW2\\\u041C\u043E\u0451\\githubb\\ZooManagment\\ZooManagement\\ZooManagement\\Domain\\Interfaces\\IEnclosureRepository.cs",
+              "RelativeDocumentMoniker": "ZooManagement\\Domain\\Interfaces\\IEnclosureRepository.cs",
+              "ToolTip": "C:\\Users\\Nikita\\Desktop\\\u041A\u041F\u041E HW2\\\u041C\u043E\u0451\\githubb\\ZooManagment\\ZooManagement\\ZooManagement\\Domain\\Interfaces\\IEnclosureRepository.cs",
+              "RelativeToolTip": "ZooManagement\\Domain\\Interfaces\\IEnclosureRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T09:18:37.04Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IDomainEventDispatcher.cs",
+              "DocumentMoniker": "C:\\Users\\Nikita\\Desktop\\\u041A\u041F\u041E HW2\\\u041C\u043E\u0451\\githubb\\ZooManagment\\ZooManagement\\ZooManagement\\Domain\\Interfaces\\IDomainEventDispatcher.cs",
+              "RelativeDocumentMoniker": "ZooManagement\\Domain\\Interfaces\\IDomainEventDispatcher.cs",
+              "ToolTip": "C:\\Users\\Nikita\\Desktop\\\u041A\u041F\u041E HW2\\\u041C\u043E\u0451\\githubb\\ZooManagment\\ZooManagement\\ZooManagement\\Domain\\Interfaces\\IDomainEventDispatcher.cs",
+              "RelativeToolTip": "ZooManagement\\Domain\\Interfaces\\IDomainEventDispatcher.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T09:18:29.872Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IAnimalRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Nikita\\Desktop\\\u041A\u041F\u041E HW2\\\u041C\u043E\u0451\\githubb\\ZooManagment\\ZooManagement\\ZooManagement\\Domain\\Interfaces\\IAnimalRepository.cs",
+              "RelativeDocumentMoniker": "ZooManagement\\Domain\\Interfaces\\IAnimalRepository.cs",
+              "ToolTip": "C:\\Users\\Nikita\\Desktop\\\u041A\u041F\u041E HW2\\\u041C\u043E\u0451\\githubb\\ZooManagment\\ZooManagement\\ZooManagement\\Domain\\Interfaces\\IAnimalRepository.cs",
+              "RelativeToolTip": "ZooManagement\\Domain\\Interfaces\\IAnimalRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T09:18:19.746Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "FeedingScheduleEndpoints.cs",
+              "DocumentMoniker": "C:\\Users\\Nikita\\Desktop\\\u041A\u041F\u041E HW2\\\u041C\u043E\u0451\\githubb\\ZooManagment\\ZooManagement\\ZooManagement\\Presentation\\Endpoints\\FeedingScheduleEndpoints.cs",
+              "RelativeDocumentMoniker": "ZooManagement\\Presentation\\Endpoints\\FeedingScheduleEndpoints.cs",
+              "ToolTip": "C:\\Users\\Nikita\\Desktop\\\u041A\u041F\u041E HW2\\\u041C\u043E\u0451\\githubb\\ZooManagment\\ZooManagement\\ZooManagement\\Presentation\\Endpoints\\FeedingScheduleEndpoints.cs",
+              "RelativeToolTip": "ZooManagement\\Presentation\\Endpoints\\FeedingScheduleEndpoints.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFIAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T09:16:45.594Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "TransferRequestDto.cs",
+              "DocumentMoniker": "C:\\Users\\Nikita\\Desktop\\\u041A\u041F\u041E HW2\\\u041C\u043E\u0451\\githubb\\ZooManagment\\ZooManagement\\ZooManagement\\Presentation\\DTOs\\TransferRequestDto.cs",
+              "RelativeDocumentMoniker": "ZooManagement\\Presentation\\DTOs\\TransferRequestDto.cs",
+              "ToolTip": "C:\\Users\\Nikita\\Desktop\\\u041A\u041F\u041E HW2\\\u041C\u043E\u0451\\githubb\\ZooManagment\\ZooManagement\\ZooManagement\\Presentation\\DTOs\\TransferRequestDto.cs",
+              "RelativeToolTip": "ZooManagement\\Presentation\\DTOs\\TransferRequestDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T09:15:52.991Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 24,
-              "Title": "FeedingSchedule.cs",
-              "DocumentMoniker": "C:\\Users\\Nikita\\source\\repos\\ZooManagement\\ZooManagement\\Domain\\Entities\\FeedingSchedule.cs",
-              "RelativeDocumentMoniker": "ZooManagement\\Domain\\Entities\\FeedingSchedule.cs",
-              "ToolTip": "C:\\Users\\Nikita\\source\\repos\\ZooManagement\\ZooManagement\\Domain\\Entities\\FeedingSchedule.cs",
-              "RelativeToolTip": "ZooManagement\\Domain\\Entities\\FeedingSchedule.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAABAAAA",
+              "Title": "InMemoryFeedingScheduleRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Nikita\\Desktop\\\u041A\u041F\u041E HW2\\\u041C\u043E\u0451\\githubb\\ZooManagment\\ZooManagement\\ZooManagement\\Infrastructure\\Repositories\\InMemoryFeedingScheduleRepository.cs",
+              "RelativeDocumentMoniker": "ZooManagement\\Infrastructure\\Repositories\\InMemoryFeedingScheduleRepository.cs",
+              "ToolTip": "C:\\Users\\Nikita\\Desktop\\\u041A\u041F\u041E HW2\\\u041C\u043E\u0451\\githubb\\ZooManagment\\ZooManagement\\ZooManagement\\Infrastructure\\Repositories\\InMemoryFeedingScheduleRepository.cs",
+              "RelativeToolTip": "ZooManagement\\Infrastructure\\Repositories\\InMemoryFeedingScheduleRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T06:41:38.154Z"
+              "WhenOpened": "2025-04-23T09:14:07.989Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "Enclosure.cs",
-              "DocumentMoniker": "C:\\Users\\Nikita\\source\\repos\\ZooManagement\\ZooManagement\\Domain\\Entities\\Enclosure.cs",
-              "RelativeDocumentMoniker": "ZooManagement\\Domain\\Entities\\Enclosure.cs",
-              "ToolTip": "C:\\Users\\Nikita\\source\\repos\\ZooManagement\\ZooManagement\\Domain\\Entities\\Enclosure.cs",
-              "RelativeToolTip": "ZooManagement\\Domain\\Entities\\Enclosure.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAABAAAA",
+              "DocumentIndex": 23,
+              "Title": "FeedingSchedulerService.cs",
+              "DocumentMoniker": "C:\\Users\\Nikita\\Desktop\\\u041A\u041F\u041E HW2\\\u041C\u043E\u0451\\githubb\\ZooManagment\\ZooManagement\\ZooManagement\\Infrastructure\\Services\\FeedingSchedulerService.cs",
+              "RelativeDocumentMoniker": "ZooManagement\\Infrastructure\\Services\\FeedingSchedulerService.cs",
+              "ToolTip": "C:\\Users\\Nikita\\Desktop\\\u041A\u041F\u041E HW2\\\u041C\u043E\u0451\\githubb\\ZooManagment\\ZooManagement\\ZooManagement\\Infrastructure\\Services\\FeedingSchedulerService.cs",
+              "RelativeToolTip": "ZooManagement\\Infrastructure\\Services\\FeedingSchedulerService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T06:41:36.251Z"
+              "WhenOpened": "2025-04-23T09:12:54.557Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "Animal.cs",
-              "DocumentMoniker": "C:\\Users\\Nikita\\source\\repos\\ZooManagement\\ZooManagement\\Domain\\Entities\\Animal.cs",
-              "RelativeDocumentMoniker": "ZooManagement\\Domain\\Entities\\Animal.cs",
-              "ToolTip": "C:\\Users\\Nikita\\source\\repos\\ZooManagement\\ZooManagement\\Domain\\Entities\\Animal.cs",
-              "RelativeToolTip": "ZooManagement\\Domain\\Entities\\Animal.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAATAAAA",
+              "DocumentIndex": 6,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\Nikita\\Desktop\\\u041A\u041F\u041E HW2\\\u041C\u043E\u0451\\githubb\\ZooManagment\\ZooManagement\\ZooManagement\\DI\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "ZooManagement\\DI\\DependencyInjection.cs",
+              "ToolTip": "C:\\Users\\Nikita\\Desktop\\\u041A\u041F\u041E HW2\\\u041C\u043E\u0451\\githubb\\ZooManagment\\ZooManagement\\ZooManagement\\DI\\DependencyInjection.cs",
+              "RelativeToolTip": "ZooManagement\\DI\\DependencyInjection.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T06:40:50.403Z"
+              "WhenOpened": "2025-04-23T08:50:15.762Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AnimalMovedEvent.cs",
+              "DocumentMoniker": "C:\\Users\\Nikita\\Desktop\\\u041A\u041F\u041E HW2\\\u041C\u043E\u0451\\githubb\\ZooManagment\\ZooManagement\\ZooManagement\\Domain\\Events\\AnimalMovedEvent.cs",
+              "RelativeDocumentMoniker": "ZooManagement\\Domain\\Events\\AnimalMovedEvent.cs",
+              "ToolTip": "C:\\Users\\Nikita\\Desktop\\\u041A\u041F\u041E HW2\\\u041C\u043E\u0451\\githubb\\ZooManagment\\ZooManagement\\ZooManagement\\Domain\\Events\\AnimalMovedEvent.cs",
+              "RelativeToolTip": "ZooManagement\\Domain\\Events\\AnimalMovedEvent.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T15:35:41.063Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "FeedingScheduleDto.cs",
+              "DocumentMoniker": "C:\\Users\\Nikita\\Desktop\\\u041A\u041F\u041E HW2\\\u041C\u043E\u0451\\githubb\\ZooManagment\\ZooManagement\\ZooManagement\\Presentation\\DTOs\\FeedingScheduleDto.cs",
+              "RelativeDocumentMoniker": "ZooManagement\\Presentation\\DTOs\\FeedingScheduleDto.cs",
+              "ToolTip": "C:\\Users\\Nikita\\Desktop\\\u041A\u041F\u041E HW2\\\u041C\u043E\u0451\\githubb\\ZooManagment\\ZooManagement\\ZooManagement\\Presentation\\DTOs\\FeedingScheduleDto.cs",
+              "RelativeToolTip": "ZooManagement\\Presentation\\DTOs\\FeedingScheduleDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T15:12:59.551Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "EnclosureDto.cs",
+              "DocumentMoniker": "C:\\Users\\Nikita\\Desktop\\\u041A\u041F\u041E HW2\\\u041C\u043E\u0451\\githubb\\ZooManagment\\ZooManagement\\ZooManagement\\Presentation\\DTOs\\EnclosureDto.cs",
+              "RelativeDocumentMoniker": "ZooManagement\\Presentation\\DTOs\\EnclosureDto.cs",
+              "ToolTip": "C:\\Users\\Nikita\\Desktop\\\u041A\u041F\u041E HW2\\\u041C\u043E\u0451\\githubb\\ZooManagment\\ZooManagement\\ZooManagement\\Presentation\\DTOs\\EnclosureDto.cs",
+              "RelativeToolTip": "ZooManagement\\Presentation\\DTOs\\EnclosureDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T15:12:53.261Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "AnimalDto.cs",
+              "DocumentMoniker": "C:\\Users\\Nikita\\Desktop\\\u041A\u041F\u041E HW2\\\u041C\u043E\u0451\\githubb\\ZooManagment\\ZooManagement\\ZooManagement\\Presentation\\DTOs\\AnimalDto.cs",
+              "RelativeDocumentMoniker": "ZooManagement\\Presentation\\DTOs\\AnimalDto.cs",
+              "ToolTip": "C:\\Users\\Nikita\\Desktop\\\u041A\u041F\u041E HW2\\\u041C\u043E\u0451\\githubb\\ZooManagment\\ZooManagement\\ZooManagement\\Presentation\\DTOs\\AnimalDto.cs",
+              "RelativeToolTip": "ZooManagement\\Presentation\\DTOs\\AnimalDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T15:11:45.967Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "EnclosureEndpoints.cs",
+              "DocumentMoniker": "C:\\Users\\Nikita\\Desktop\\\u041A\u041F\u041E HW2\\\u041C\u043E\u0451\\githubb\\ZooManagment\\ZooManagement\\ZooManagement\\Presentation\\Endpoints\\EnclosureEndpoints.cs",
+              "RelativeDocumentMoniker": "ZooManagement\\Presentation\\Endpoints\\EnclosureEndpoints.cs",
+              "ToolTip": "C:\\Users\\Nikita\\Desktop\\\u041A\u041F\u041E HW2\\\u041C\u043E\u0451\\githubb\\ZooManagment\\ZooManagement\\ZooManagement\\Presentation\\Endpoints\\EnclosureEndpoints.cs",
+              "RelativeToolTip": "ZooManagement\\Presentation\\Endpoints\\EnclosureEndpoints.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T15:11:39.647Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AnimalEndpoints.cs",
+              "DocumentMoniker": "C:\\Users\\Nikita\\Desktop\\\u041A\u041F\u041E HW2\\\u041C\u043E\u0451\\githubb\\ZooManagment\\ZooManagement\\ZooManagement\\Presentation\\Endpoints\\AnimalEndpoints.cs",
+              "RelativeDocumentMoniker": "ZooManagement\\Presentation\\Endpoints\\AnimalEndpoints.cs",
+              "ToolTip": "C:\\Users\\Nikita\\Desktop\\\u041A\u041F\u041E HW2\\\u041C\u043E\u0451\\githubb\\ZooManagment\\ZooManagement\\ZooManagement\\Presentation\\Endpoints\\AnimalEndpoints.cs",
+              "RelativeToolTip": "ZooManagement\\Presentation\\Endpoints\\AnimalEndpoints.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T15:09:55.893Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 27,
-              "Title": "Controller.cs",
-              "DocumentMoniker": "C:\\Users\\Nikita\\source\\repos\\ZooManagement\\ZooManagement\\Controllers\\Controller.cs",
-              "RelativeDocumentMoniker": "ZooManagement\\Controllers\\Controller.cs",
-              "ToolTip": "C:\\Users\\Nikita\\source\\repos\\ZooManagement\\ZooManagement\\Controllers\\Controller.cs",
-              "RelativeToolTip": "ZooManagement\\Controllers\\Controller.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAuwAoAAAAAAAAA",
+              "Title": "ConsoleEventDispatcher.cs",
+              "DocumentMoniker": "C:\\Users\\Nikita\\Desktop\\\u041A\u041F\u041E HW2\\\u041C\u043E\u0451\\githubb\\ZooManagment\\ZooManagement\\ZooManagement\\Infrastructure\\Events\\ConsoleEventDispatcher.cs",
+              "RelativeDocumentMoniker": "ZooManagement\\Infrastructure\\Events\\ConsoleEventDispatcher.cs",
+              "ToolTip": "C:\\Users\\Nikita\\Desktop\\\u041A\u041F\u041E HW2\\\u041C\u043E\u0451\\githubb\\ZooManagment\\ZooManagement\\ZooManagement\\Infrastructure\\Events\\ConsoleEventDispatcher.cs",
+              "RelativeToolTip": "ZooManagement\\Infrastructure\\Events\\ConsoleEventDispatcher.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T06:38:21.201Z"
+              "WhenOpened": "2025-04-22T14:45:05.62Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "FoodType.cs",
+              "DocumentMoniker": "C:\\Users\\Nikita\\Desktop\\\u041A\u041F\u041E HW2\\\u041C\u043E\u0451\\githubb\\ZooManagment\\ZooManagement\\ZooManagement\\Domain\\ValueObjects\\FoodType.cs",
+              "RelativeDocumentMoniker": "ZooManagement\\Domain\\ValueObjects\\FoodType.cs",
+              "ToolTip": "C:\\Users\\Nikita\\Desktop\\\u041A\u041F\u041E HW2\\\u041C\u043E\u0451\\githubb\\ZooManagment\\ZooManagement\\ZooManagement\\Domain\\ValueObjects\\FoodType.cs",
+              "RelativeToolTip": "ZooManagement\\Domain\\ValueObjects\\FoodType.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACoAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T14:43:32.143Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "AnimalSpecies.cs",
+              "DocumentMoniker": "C:\\Users\\Nikita\\Desktop\\\u041A\u041F\u041E HW2\\\u041C\u043E\u0451\\githubb\\ZooManagment\\ZooManagement\\ZooManagement\\Domain\\ValueObjects\\AnimalSpecies.cs",
+              "RelativeDocumentMoniker": "ZooManagement\\Domain\\ValueObjects\\AnimalSpecies.cs",
+              "ToolTip": "C:\\Users\\Nikita\\Desktop\\\u041A\u041F\u041E HW2\\\u041C\u043E\u0451\\githubb\\ZooManagment\\ZooManagement\\ZooManagement\\Domain\\ValueObjects\\AnimalSpecies.cs",
+              "RelativeToolTip": "ZooManagement\\Domain\\ValueObjects\\AnimalSpecies.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T14:40:41.706Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "FeedingSchedule.cs",
+              "DocumentMoniker": "C:\\Users\\Nikita\\Desktop\\\u041A\u041F\u041E HW2\\\u041C\u043E\u0451\\githubb\\ZooManagment\\ZooManagement\\ZooManagement\\Domain\\Entities\\FeedingSchedule.cs",
+              "RelativeDocumentMoniker": "ZooManagement\\Domain\\Entities\\FeedingSchedule.cs",
+              "ToolTip": "C:\\Users\\Nikita\\Desktop\\\u041A\u041F\u041E HW2\\\u041C\u043E\u0451\\githubb\\ZooManagment\\ZooManagement\\ZooManagement\\Domain\\Entities\\FeedingSchedule.cs",
+              "RelativeToolTip": "ZooManagement\\Domain\\Entities\\FeedingSchedule.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACkAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T14:14:44.229Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Enclosure.cs",
+              "DocumentMoniker": "C:\\Users\\Nikita\\Desktop\\\u041A\u041F\u041E HW2\\\u041C\u043E\u0451\\githubb\\ZooManagment\\ZooManagement\\ZooManagement\\Domain\\Entities\\Enclosure.cs",
+              "RelativeDocumentMoniker": "ZooManagement\\Domain\\Entities\\Enclosure.cs",
+              "ToolTip": "C:\\Users\\Nikita\\Desktop\\\u041A\u041F\u041E HW2\\\u041C\u043E\u0451\\githubb\\ZooManagment\\ZooManagement\\ZooManagement\\Domain\\Entities\\Enclosure.cs",
+              "RelativeToolTip": "ZooManagement\\Domain\\Entities\\Enclosure.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACQAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T14:12:39.017Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Animal.cs",
+              "DocumentMoniker": "C:\\Users\\Nikita\\Desktop\\\u041A\u041F\u041E HW2\\\u041C\u043E\u0451\\githubb\\ZooManagment\\ZooManagement\\ZooManagement\\Domain\\Entities\\Animal.cs",
+              "RelativeDocumentMoniker": "ZooManagement\\Domain\\Entities\\Animal.cs",
+              "ToolTip": "C:\\Users\\Nikita\\Desktop\\\u041A\u041F\u041E HW2\\\u041C\u043E\u0451\\githubb\\ZooManagment\\ZooManagement\\ZooManagement\\Domain\\Entities\\Animal.cs",
+              "RelativeToolTip": "ZooManagement\\Domain\\Entities\\Animal.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAwAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T14:11:06.969Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "InMemoryEnclosureRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Nikita\\Desktop\\\u041A\u041F\u041E HW2\\\u041C\u043E\u0451\\githubb\\ZooManagment\\ZooManagement\\ZooManagement\\Infrastructure\\Repositories\\InMemoryEnclosureRepository.cs",
+              "RelativeDocumentMoniker": "ZooManagement\\Infrastructure\\Repositories\\InMemoryEnclosureRepository.cs",
+              "ToolTip": "C:\\Users\\Nikita\\Desktop\\\u041A\u041F\u041E HW2\\\u041C\u043E\u0451\\githubb\\ZooManagment\\ZooManagement\\ZooManagement\\Infrastructure\\Repositories\\InMemoryEnclosureRepository.cs",
+              "RelativeToolTip": "ZooManagement\\Infrastructure\\Repositories\\InMemoryEnclosureRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T12:24:12.438Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "InMemoryAnimalRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Nikita\\Desktop\\\u041A\u041F\u041E HW2\\\u041C\u043E\u0451\\githubb\\ZooManagment\\ZooManagement\\ZooManagement\\Infrastructure\\Repositories\\InMemoryAnimalRepository.cs",
+              "RelativeDocumentMoniker": "ZooManagement\\Infrastructure\\Repositories\\InMemoryAnimalRepository.cs",
+              "ToolTip": "C:\\Users\\Nikita\\Desktop\\\u041A\u041F\u041E HW2\\\u041C\u043E\u0451\\githubb\\ZooManagment\\ZooManagement\\ZooManagement\\Infrastructure\\Repositories\\InMemoryAnimalRepository.cs",
+              "RelativeToolTip": "ZooManagement\\Infrastructure\\Repositories\\InMemoryAnimalRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T12:24:09.902Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ZooStatisticsService.cs",
+              "DocumentMoniker": "C:\\Users\\Nikita\\Desktop\\\u041A\u041F\u041E HW2\\\u041C\u043E\u0451\\githubb\\ZooManagment\\ZooManagement\\ZooManagement\\Application\\Services\\ZooStatisticsService.cs",
+              "RelativeDocumentMoniker": "ZooManagement\\Application\\Services\\ZooStatisticsService.cs",
+              "ToolTip": "C:\\Users\\Nikita\\Desktop\\\u041A\u041F\u041E HW2\\\u041C\u043E\u0451\\githubb\\ZooManagment\\ZooManagement\\ZooManagement\\Application\\Services\\ZooStatisticsService.cs",
+              "RelativeToolTip": "ZooManagement\\Application\\Services\\ZooStatisticsService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T12:22:05.711Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FeedingOrganizationService.cs",
+              "DocumentMoniker": "C:\\Users\\Nikita\\Desktop\\\u041A\u041F\u041E HW2\\\u041C\u043E\u0451\\githubb\\ZooManagment\\ZooManagement\\ZooManagement\\Application\\Services\\FeedingOrganizationService.cs",
+              "RelativeDocumentMoniker": "ZooManagement\\Application\\Services\\FeedingOrganizationService.cs",
+              "ToolTip": "C:\\Users\\Nikita\\Desktop\\\u041A\u041F\u041E HW2\\\u041C\u043E\u0451\\githubb\\ZooManagment\\ZooManagement\\ZooManagement\\Application\\Services\\FeedingOrganizationService.cs",
+              "RelativeToolTip": "ZooManagement\\Application\\Services\\FeedingOrganizationService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T12:21:28.616Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Nikita\\source\\repos\\ZooManagement\\ZooManagement\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\Nikita\\Desktop\\\u041A\u041F\u041E HW2\\\u041C\u043E\u0451\\githubb\\ZooManagment\\ZooManagement\\ZooManagement\\Program.cs",
               "RelativeDocumentMoniker": "ZooManagement\\Program.cs",
-              "ToolTip": "C:\\Users\\Nikita\\source\\repos\\ZooManagement\\ZooManagement\\Program.cs",
+              "ToolTip": "C:\\Users\\Nikita\\Desktop\\\u041A\u041F\u041E HW2\\\u041C\u043E\u0451\\githubb\\ZooManagment\\ZooManagement\\ZooManagement\\Program.cs",
               "RelativeToolTip": "ZooManagement\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAoAAAA",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAiwAgAAAA9AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T06:36:45.037Z",
+              "WhenOpened": "2025-04-22T12:03:49.587Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "FeedingScheduleEndpoints.cs",
-              "DocumentMoniker": "C:\\Users\\Nikita\\source\\repos\\ZooManagement\\ZooManagement\\Presentation\\Endpoints\\FeedingScheduleEndpoints.cs",
-              "RelativeDocumentMoniker": "ZooManagement\\Presentation\\Endpoints\\FeedingScheduleEndpoints.cs",
-              "ToolTip": "C:\\Users\\Nikita\\source\\repos\\ZooManagement\\ZooManagement\\Presentation\\Endpoints\\FeedingScheduleEndpoints.cs",
-              "RelativeToolTip": "ZooManagement\\Presentation\\Endpoints\\FeedingScheduleEndpoints.cs",
-              "ViewState": "AQIAAEEAAAAAAAAAAAAUwEkAAAAcAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T06:35:00.541Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "EnclosureEndpoints.cs",
-              "DocumentMoniker": "C:\\Users\\Nikita\\source\\repos\\ZooManagement\\ZooManagement\\Presentation\\Endpoints\\EnclosureEndpoints.cs",
-              "RelativeDocumentMoniker": "ZooManagement\\Presentation\\Endpoints\\EnclosureEndpoints.cs",
-              "ToolTip": "C:\\Users\\Nikita\\source\\repos\\ZooManagement\\ZooManagement\\Presentation\\Endpoints\\EnclosureEndpoints.cs",
-              "RelativeToolTip": "ZooManagement\\Presentation\\Endpoints\\EnclosureEndpoints.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAZAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T06:34:46.187Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "AnimalEndpoints.cs",
-              "DocumentMoniker": "C:\\Users\\Nikita\\source\\repos\\ZooManagement\\ZooManagement\\Presentation\\Endpoints\\AnimalEndpoints.cs",
-              "RelativeDocumentMoniker": "ZooManagement\\Presentation\\Endpoints\\AnimalEndpoints.cs",
-              "ToolTip": "C:\\Users\\Nikita\\source\\repos\\ZooManagement\\ZooManagement\\Presentation\\Endpoints\\AnimalEndpoints.cs",
-              "RelativeToolTip": "ZooManagement\\Presentation\\Endpoints\\AnimalEndpoints.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAfAAAA",
+              "Title": "AnimalTransferService.cs",
+              "DocumentMoniker": "C:\\Users\\Nikita\\Desktop\\\u041A\u041F\u041E HW2\\\u041C\u043E\u0451\\githubb\\ZooManagment\\ZooManagement\\ZooManagement\\Application\\Services\\AnimalTransferService.cs",
+              "RelativeDocumentMoniker": "ZooManagement\\Application\\Services\\AnimalTransferService.cs",
+              "ToolTip": "C:\\Users\\Nikita\\Desktop\\\u041A\u041F\u041E HW2\\\u041C\u043E\u0451\\githubb\\ZooManagment\\ZooManagement\\ZooManagement\\Application\\Services\\AnimalTransferService.cs",
+              "RelativeToolTip": "ZooManagement\\Application\\Services\\AnimalTransferService.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAxwAkAAAA9AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T06:34:32.016Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "FeedingScheduleDto.cs",
-              "DocumentMoniker": "C:\\Users\\Nikita\\source\\repos\\ZooManagement\\ZooManagement\\Presentation\\DTOs\\FeedingScheduleDto.cs",
-              "RelativeDocumentMoniker": "ZooManagement\\Presentation\\DTOs\\FeedingScheduleDto.cs",
-              "ToolTip": "C:\\Users\\Nikita\\source\\repos\\ZooManagement\\ZooManagement\\Presentation\\DTOs\\FeedingScheduleDto.cs",
-              "RelativeToolTip": "ZooManagement\\Presentation\\DTOs\\FeedingScheduleDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T06:33:43.708Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "EnclosureDto.cs",
-              "DocumentMoniker": "C:\\Users\\Nikita\\source\\repos\\ZooManagement\\ZooManagement\\Presentation\\DTOs\\EnclosureDto.cs",
-              "RelativeDocumentMoniker": "ZooManagement\\Presentation\\DTOs\\EnclosureDto.cs",
-              "ToolTip": "C:\\Users\\Nikita\\source\\repos\\ZooManagement\\ZooManagement\\Presentation\\DTOs\\EnclosureDto.cs",
-              "RelativeToolTip": "ZooManagement\\Presentation\\DTOs\\EnclosureDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAuAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T06:33:29.056Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "AnimalDto.cs",
-              "DocumentMoniker": "C:\\Users\\Nikita\\source\\repos\\ZooManagement\\ZooManagement\\Presentation\\DTOs\\AnimalDto.cs",
-              "RelativeDocumentMoniker": "ZooManagement\\Presentation\\DTOs\\AnimalDto.cs",
-              "ToolTip": "C:\\Users\\Nikita\\source\\repos\\ZooManagement\\ZooManagement\\Presentation\\DTOs\\AnimalDto.cs",
-              "RelativeToolTip": "ZooManagement\\Presentation\\DTOs\\AnimalDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T06:33:14.402Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "ZooManagement.csproj",
-              "DocumentMoniker": "C:\\Users\\Nikita\\source\\repos\\ZooManagement\\ZooManagement\\ZooManagement.csproj",
-              "RelativeDocumentMoniker": "ZooManagement\\ZooManagement.csproj",
-              "ToolTip": "C:\\Users\\Nikita\\source\\repos\\ZooManagement\\ZooManagement\\ZooManagement.csproj",
-              "RelativeToolTip": "ZooManagement\\ZooManagement.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-04-22T06:32:21.319Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "InMemoryFeedingScheduleRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Nikita\\source\\repos\\ZooManagement\\ZooManagement\\Infrastructure\\Repositories\\InMemoryFeedingScheduleRepository.cs",
-              "RelativeDocumentMoniker": "ZooManagement\\Infrastructure\\Repositories\\InMemoryFeedingScheduleRepository.cs",
-              "ToolTip": "C:\\Users\\Nikita\\source\\repos\\ZooManagement\\ZooManagement\\Infrastructure\\Repositories\\InMemoryFeedingScheduleRepository.cs",
-              "RelativeToolTip": "ZooManagement\\Infrastructure\\Repositories\\InMemoryFeedingScheduleRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T06:30:44.851Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "InMemoryEnclosureRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Nikita\\source\\repos\\ZooManagement\\ZooManagement\\Infrastructure\\Repositories\\InMemoryEnclosureRepository.cs",
-              "RelativeDocumentMoniker": "ZooManagement\\Infrastructure\\Repositories\\InMemoryEnclosureRepository.cs",
-              "ToolTip": "C:\\Users\\Nikita\\source\\repos\\ZooManagement\\ZooManagement\\Infrastructure\\Repositories\\InMemoryEnclosureRepository.cs",
-              "RelativeToolTip": "ZooManagement\\Infrastructure\\Repositories\\InMemoryEnclosureRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T06:30:28.791Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "InMemoryAnimalRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Nikita\\source\\repos\\ZooManagement\\ZooManagement\\Infrastructure\\Repositories\\InMemoryAnimalRepository.cs",
-              "RelativeDocumentMoniker": "ZooManagement\\Infrastructure\\Repositories\\InMemoryAnimalRepository.cs",
-              "ToolTip": "C:\\Users\\Nikita\\source\\repos\\ZooManagement\\ZooManagement\\Infrastructure\\Repositories\\InMemoryAnimalRepository.cs",
-              "RelativeToolTip": "ZooManagement\\Infrastructure\\Repositories\\InMemoryAnimalRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAA9AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T06:30:05.368Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "ConsoleEventDispatcher.cs",
-              "DocumentMoniker": "C:\\Users\\Nikita\\source\\repos\\ZooManagement\\ZooManagement\\Infrastructure\\Events\\ConsoleEventDispatcher.cs",
-              "RelativeDocumentMoniker": "ZooManagement\\Infrastructure\\Events\\ConsoleEventDispatcher.cs",
-              "ToolTip": "C:\\Users\\Nikita\\source\\repos\\ZooManagement\\ZooManagement\\Infrastructure\\Events\\ConsoleEventDispatcher.cs",
-              "RelativeToolTip": "ZooManagement\\Infrastructure\\Events\\ConsoleEventDispatcher.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAA1AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T06:29:07.992Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "DependencyInjection.cs",
-              "DocumentMoniker": "C:\\Users\\Nikita\\source\\repos\\ZooManagement\\ZooManagement\\DI\\DependencyInjection.cs",
-              "RelativeDocumentMoniker": "ZooManagement\\DI\\DependencyInjection.cs",
-              "ToolTip": "C:\\Users\\Nikita\\source\\repos\\ZooManagement\\ZooManagement\\DI\\DependencyInjection.cs",
-              "RelativeToolTip": "ZooManagement\\DI\\DependencyInjection.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T06:27:11.437Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "FoodType.cs",
-              "DocumentMoniker": "C:\\Users\\Nikita\\source\\repos\\ZooManagement\\ZooManagement\\Domain\\ValueObjects\\FoodType.cs",
-              "RelativeDocumentMoniker": "ZooManagement\\Domain\\ValueObjects\\FoodType.cs",
-              "ToolTip": "C:\\Users\\Nikita\\source\\repos\\ZooManagement\\ZooManagement\\Domain\\ValueObjects\\FoodType.cs",
-              "RelativeToolTip": "ZooManagement\\Domain\\ValueObjects\\FoodType.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T06:22:21.074Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "FeedingTime.cs",
-              "DocumentMoniker": "C:\\Users\\Nikita\\source\\repos\\ZooManagement\\ZooManagement\\Domain\\ValueObjects\\FeedingTime.cs",
-              "RelativeDocumentMoniker": "ZooManagement\\Domain\\ValueObjects\\FeedingTime.cs",
-              "ToolTip": "C:\\Users\\Nikita\\source\\repos\\ZooManagement\\ZooManagement\\Domain\\ValueObjects\\FeedingTime.cs",
-              "RelativeToolTip": "ZooManagement\\Domain\\ValueObjects\\FeedingTime.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T06:22:05.889Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "EnclosureType.cs",
-              "DocumentMoniker": "C:\\Users\\Nikita\\source\\repos\\ZooManagement\\ZooManagement\\Domain\\ValueObjects\\EnclosureType.cs",
-              "RelativeDocumentMoniker": "ZooManagement\\Domain\\ValueObjects\\EnclosureType.cs",
-              "ToolTip": "C:\\Users\\Nikita\\source\\repos\\ZooManagement\\ZooManagement\\Domain\\ValueObjects\\EnclosureType.cs",
-              "RelativeToolTip": "ZooManagement\\Domain\\ValueObjects\\EnclosureType.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T06:21:49.259Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "AnimalSpecies.cs",
-              "DocumentMoniker": "C:\\Users\\Nikita\\source\\repos\\ZooManagement\\ZooManagement\\Domain\\ValueObjects\\AnimalSpecies.cs",
-              "RelativeDocumentMoniker": "ZooManagement\\Domain\\ValueObjects\\AnimalSpecies.cs",
-              "ToolTip": "C:\\Users\\Nikita\\source\\repos\\ZooManagement\\ZooManagement\\Domain\\ValueObjects\\AnimalSpecies.cs",
-              "RelativeToolTip": "ZooManagement\\Domain\\ValueObjects\\AnimalSpecies.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T06:21:36.321Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "IMediator.cs",
-              "DocumentMoniker": "C:\\Users\\Nikita\\source\\repos\\ZooManagement\\ZooManagement\\Domain\\Interfaces\\IMediator.cs",
-              "RelativeDocumentMoniker": "ZooManagement\\Domain\\Interfaces\\IMediator.cs",
-              "ToolTip": "C:\\Users\\Nikita\\source\\repos\\ZooManagement\\ZooManagement\\Domain\\Interfaces\\IMediator.cs",
-              "RelativeToolTip": "ZooManagement\\Domain\\Interfaces\\IMediator.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T06:20:33.144Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "IFeedingScheduleRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Nikita\\source\\repos\\ZooManagement\\ZooManagement\\Domain\\Interfaces\\IFeedingScheduleRepository.cs",
-              "RelativeDocumentMoniker": "ZooManagement\\Domain\\Interfaces\\IFeedingScheduleRepository.cs",
-              "ToolTip": "C:\\Users\\Nikita\\source\\repos\\ZooManagement\\ZooManagement\\Domain\\Interfaces\\IFeedingScheduleRepository.cs",
-              "RelativeToolTip": "ZooManagement\\Domain\\Interfaces\\IFeedingScheduleRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAwwA0AAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T06:20:18.897Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "IEnclosureRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Nikita\\source\\repos\\ZooManagement\\ZooManagement\\Domain\\Interfaces\\IEnclosureRepository.cs",
-              "RelativeDocumentMoniker": "ZooManagement\\Domain\\Interfaces\\IEnclosureRepository.cs",
-              "ToolTip": "C:\\Users\\Nikita\\source\\repos\\ZooManagement\\ZooManagement\\Domain\\Interfaces\\IEnclosureRepository.cs",
-              "RelativeToolTip": "ZooManagement\\Domain\\Interfaces\\IEnclosureRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T06:19:57.085Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "IDomainEventDispatcher.cs",
-              "DocumentMoniker": "C:\\Users\\Nikita\\source\\repos\\ZooManagement\\ZooManagement\\Domain\\Interfaces\\IDomainEventDispatcher.cs",
-              "RelativeDocumentMoniker": "ZooManagement\\Domain\\Interfaces\\IDomainEventDispatcher.cs",
-              "ToolTip": "C:\\Users\\Nikita\\source\\repos\\ZooManagement\\ZooManagement\\Domain\\Interfaces\\IDomainEventDispatcher.cs",
-              "RelativeToolTip": "ZooManagement\\Domain\\Interfaces\\IDomainEventDispatcher.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T06:19:42.672Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "IAnimalRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Nikita\\source\\repos\\ZooManagement\\ZooManagement\\Domain\\Interfaces\\IAnimalRepository.cs",
-              "RelativeDocumentMoniker": "ZooManagement\\Domain\\Interfaces\\IAnimalRepository.cs",
-              "ToolTip": "C:\\Users\\Nikita\\source\\repos\\ZooManagement\\ZooManagement\\Domain\\Interfaces\\IAnimalRepository.cs",
-              "RelativeToolTip": "ZooManagement\\Domain\\Interfaces\\IAnimalRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T06:19:26.246Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "MediatrDomainEventDispatcher.cs",
-              "DocumentMoniker": "C:\\Users\\Nikita\\source\\repos\\ZooManagement\\ZooManagement\\Domain\\Events\\MediatrDomainEventDispatcher.cs",
-              "RelativeDocumentMoniker": "ZooManagement\\Domain\\Events\\MediatrDomainEventDispatcher.cs",
-              "ToolTip": "C:\\Users\\Nikita\\source\\repos\\ZooManagement\\ZooManagement\\Domain\\Events\\MediatrDomainEventDispatcher.cs",
-              "RelativeToolTip": "ZooManagement\\Domain\\Events\\MediatrDomainEventDispatcher.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T06:18:56.708Z"
+              "WhenOpened": "2025-04-22T11:45:02.853Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 21,
-              "Title": "FeedingCompletedEvent.cs",
-              "DocumentMoniker": "C:\\Users\\Nikita\\source\\repos\\ZooManagement\\ZooManagement\\Domain\\Events\\FeedingCompletedEvent.cs",
-              "RelativeDocumentMoniker": "ZooManagement\\Domain\\Events\\FeedingCompletedEvent.cs",
-              "ToolTip": "C:\\Users\\Nikita\\source\\repos\\ZooManagement\\ZooManagement\\Domain\\Events\\FeedingCompletedEvent.cs",
-              "RelativeToolTip": "ZooManagement\\Domain\\Events\\FeedingCompletedEvent.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAABAAAA",
+              "Title": "FeedingTime.cs",
+              "DocumentMoniker": "C:\\Users\\Nikita\\Desktop\\\u041A\u041F\u041E HW2\\\u041C\u043E\u0451\\githubb\\ZooManagment\\ZooManagement\\ZooManagement\\Domain\\ValueObjects\\FeedingTime.cs",
+              "RelativeDocumentMoniker": "ZooManagement\\Domain\\ValueObjects\\FeedingTime.cs",
+              "ToolTip": "C:\\Users\\Nikita\\Desktop\\\u041A\u041F\u041E HW2\\\u041C\u043E\u0451\\githubb\\ZooManagment\\ZooManagement\\ZooManagement\\Domain\\ValueObjects\\FeedingTime.cs",
+              "RelativeToolTip": "ZooManagement\\Domain\\ValueObjects\\FeedingTime.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T06:18:32.712Z"
+              "WhenOpened": "2025-04-22T11:44:00.852Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "DomainEvent.cs",
-              "DocumentMoniker": "C:\\Users\\Nikita\\source\\repos\\ZooManagement\\ZooManagement\\Domain\\Events\\DomainEvent.cs",
-              "RelativeDocumentMoniker": "ZooManagement\\Domain\\Events\\DomainEvent.cs",
-              "ToolTip": "C:\\Users\\Nikita\\source\\repos\\ZooManagement\\ZooManagement\\Domain\\Events\\DomainEvent.cs",
-              "RelativeToolTip": "ZooManagement\\Domain\\Events\\DomainEvent.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAABAAAA",
+              "DocumentIndex": 20,
+              "Title": "EnclosureType.cs",
+              "DocumentMoniker": "C:\\Users\\Nikita\\Desktop\\\u041A\u041F\u041E HW2\\\u041C\u043E\u0451\\githubb\\ZooManagment\\ZooManagement\\ZooManagement\\Domain\\ValueObjects\\EnclosureType.cs",
+              "RelativeDocumentMoniker": "ZooManagement\\Domain\\ValueObjects\\EnclosureType.cs",
+              "ToolTip": "C:\\Users\\Nikita\\Desktop\\\u041A\u041F\u041E HW2\\\u041C\u043E\u0451\\githubb\\ZooManagment\\ZooManagement\\ZooManagement\\Domain\\ValueObjects\\EnclosureType.cs",
+              "RelativeToolTip": "ZooManagement\\Domain\\ValueObjects\\EnclosureType.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T06:18:02.247Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "AnimalMovedEvent.cs",
-              "DocumentMoniker": "C:\\Users\\Nikita\\source\\repos\\ZooManagement\\ZooManagement\\Domain\\Events\\AnimalMovedEvent.cs",
-              "RelativeDocumentMoniker": "ZooManagement\\Domain\\Events\\AnimalMovedEvent.cs",
-              "ToolTip": "C:\\Users\\Nikita\\source\\repos\\ZooManagement\\ZooManagement\\Domain\\Events\\AnimalMovedEvent.cs",
-              "RelativeToolTip": "ZooManagement\\Domain\\Events\\AnimalMovedEvent.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAhAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T06:17:36.887Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "AnimalTransferService.cs",
-              "DocumentMoniker": "C:\\Users\\Nikita\\source\\repos\\ZooManagement\\ZooManagement\\Application\\Services\\AnimalTransferService.cs",
-              "RelativeDocumentMoniker": "ZooManagement\\Application\\Services\\AnimalTransferService.cs",
-              "ToolTip": "C:\\Users\\Nikita\\source\\repos\\ZooManagement\\ZooManagement\\Application\\Services\\AnimalTransferService.cs",
-              "RelativeToolTip": "ZooManagement\\Application\\Services\\AnimalTransferService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T03:47:31.105Z"
+              "WhenOpened": "2025-04-22T11:43:55.65Z"
             }
           ]
         },
         {
-          "DockedWidth": 124,
+          "DockedWidth": 96,
           "SelectedChildIndex": -1,
           "Children": [
             {

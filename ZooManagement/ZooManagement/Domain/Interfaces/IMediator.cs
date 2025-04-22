@@ -1,7 +1,9 @@
 ﻿
 using Domain.Events;
-namespace Domain.Interfaces;
-public interface IMediator
+namespace Domain.Interfaces
 {
-    Task Publish(DomainEvent domainEvent);
+    public interface IMediator
+    {
+        Task Publish(DomainEvent domainEvent);
+    }
 }

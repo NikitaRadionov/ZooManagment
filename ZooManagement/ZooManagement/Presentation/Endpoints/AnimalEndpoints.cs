@@ -1,123 +1,136 @@
-﻿using Domain.Entities;
+﻿using Application.Services;
+using Domain.Entities;
 using Domain.Interfaces;
-using Application.Services;
-using Presentation.DTOs;
-using Microsoft.AspNetCore.Mvc;
 using Domain.ValueObjects;
-using System.ComponentModel.DataAnnotations;
+using Microsoft.AspNetCore.Mvc;
+using Presentation.DTOs;
+
+namespace Presentation.Endpoints;
 
 public static class AnimalEndpoints
 {
-    public static void MapAnimalEndpoints(this WebApplication app)
+    public static RouteGroupBuilder MapAnimalApi(this RouteGroupBuilder group)
     {
-        var group = app.MapGroup("/animals")
-            .WithTags("Animals");
-
-        group.MapGet("/", async (ZooStatisticsService service) =>
-            Results.Ok(await service.GetStatisticsAsync()))
+        group.MapGet("/", async (ZooStatisticsService statsService) =>
+            Results.Ok(await statsService.GetStatisticsAsync()))
             .WithName("GetZooStatistics");
 
         group.MapGet("/all", async (IAnimalRepository repo) =>
             Results.Ok(await repo.GetAllAsync()))
             .WithName("GetAllAnimals");
 
+        group.MapPost("/", AddAnimal)
+            .WithName("AddAnimal")
+            .Accepts<AnimalDto>("application/json")
+            .Produces(201)
+            .Produces(400);
 
-        group.MapPost("/transfer", async (
-        [FromBody] TransferRequest request,
+        group.MapPost("/transfer", TransferAnimal)
+            .WithName("TransferAnimal")
+            .Produces(200)
+            .Produces(400);
+
+        group.MapDelete("/{id}", DeleteAnimal)
+            .WithName("DeleteAnimal")
+            .Produces(204)
+            .Produces(404);
+
+        return group;
+    }
+
+    private static async Task<IResult> AddAnimal(
+        [FromBody] AnimalDto dto,
+        IAnimalRepository repo,
+        IDomainEventDispatcher dispatcher)
+    {
+        try
+        {
+            DateOnly birthDate;
+            try
+            {
+                birthDate = DateOnly.Parse(dto.BirthDate);
+            }
+            catch
+            {
+                birthDate = DateOnly.FromDateTime(DateTime.Today);
+            }
+
+            var foodType = GetFoodType(dto.FavoriteFood);
+
+            var animal = new Animal(
+                AnimalSpecies.Create(dto.Species),
+                dto.Name,
+                birthDate,
+                dto.Gender,
+                foodType,
+                dispatcher);
+
+            animal.Heal();
+            await repo.AddAsync(animal);
+
+            return Results.Created($"/animals/{animal.Id}", new
+            {
+                animal.Id,
+                dto.Species,
+                AssignedBirthDate = birthDate.ToString("yyyy-MM-dd"),
+                AssignedFoodType = foodType.Name
+            });
+        }
+        catch (ArgumentException ex)
+        {
+            return Results.BadRequest(ex.Message);
+        }
+        catch (Exception ex)
+        {
+            return Results.Problem(ex.Message);
+        }
+    }
+
+    private static async Task<IResult> TransferAnimal(
+        [FromBody] TransferRequestDto request,
         AnimalTransferService service,
         IAnimalRepository animalRepo,
-        IEnclosureRepository enclosureRepo) =>
+        IEnclosureRepository enclosureRepo)
+    {
+        var animal = await animalRepo.GetByIdAsync(request.AnimalId);
+        var enclosure = await enclosureRepo.GetByIdAsync(request.NewEnclosureId);
+
+        if (animal == null || enclosure == null)
         {
-            var validationErrors = new List<string>();
+            var errors = new List<string>();
+            if (animal == null) errors.Add($"Animal with ID {request.AnimalId} not found");
+            if (enclosure == null) errors.Add($"Enclosure with ID {request.NewEnclosureId} not found");
+            return Results.BadRequest(new { Errors = errors });
+        }
 
-            if (request.AnimalId < 0) validationErrors.Add("Animal ID must be non-negative");
-            if (request.NewEnclosureId < 0) validationErrors.Add("Enclosure ID must be non-negative");
-
-            if (validationErrors.Any())
-                return Results.BadRequest(new { Errors = validationErrors });
-
-            var animal = await animalRepo.GetByIdAsync(request.AnimalId);
-            var enclosure = await enclosureRepo.GetByIdAsync(request.NewEnclosureId);
-
-            var errorMessages = new List<string>();
-            if (animal == null) errorMessages.Add($"Animal with ID {request.AnimalId} not found");
-            if (enclosure == null) errorMessages.Add($"Enclosure with ID {request.NewEnclosureId} not found");
-
-            if (errorMessages.Count > 0)
-                return Results.BadRequest(new { Errors = errorMessages });
-
-            try
-            {
-                await service.TransferAnimalAsync(animal, enclosure);
-                return Results.Ok(new
-                {
-                    Message = "Transfer successful",
-                    AnimalId = animal.Id,
-                    NewEnclosureId = enclosure.Id
-                });
-            }
-            catch (InvalidOperationException ex)
-            {
-                return Results.BadRequest(new { Error = ex.Message });
-            }
-        })
-    .WithName("TransferAnimal")
-    .Produces(200)
-    .Produces<ProblemDetails>(400);
-
-
-
-        group.MapPost("/", async (
-            [FromBody] AnimalDto dto,
-            IAnimalRepository repo,
-            IDomainEventDispatcher dispatcher) =>
+        try
         {
-            try
-            {
-                var foodType = FoodType.FromString(dto.FavoriteFood);
-
-                if (!DateOnly.TryParse(dto.BirthDate, out var birthDate))
-                {
-                    return Results.BadRequest("Invalid date format. Use YYYY-MM-DD");
-                }
-
-                var animal = new Animal(
-                    AnimalSpecies.Create(dto.Species),
-                    dto.Name,
-                    birthDate,
-                    dto.Gender,
-                    foodType,
-                    dispatcher);
-
-                animal.Heal();
-                await repo.AddAsync(animal);
-                return Results.Created($"/animals/{animal.Id}", animal);
-            }
-            catch (ArgumentException ex) when (ex.Message.Contains("Invalid food type"))
-            {
-                var validTypes = string.Join(", ", FoodType.GetValidTypes());
-                return Results.BadRequest($"Invalid food type. Valid values: {validTypes}");
-            }
-            catch (ArgumentException ex)
-            {
-                return Results.BadRequest(ex.Message);
-            }
-            catch (Exception ex)
-            {
-                return Results.Problem(ex.Message);
-            }
-        });
-
-        group.MapDelete("/{id}", async (int id, IAnimalRepository repo) =>
+            await service.TransferAnimalAsync(animal, enclosure);
+            return Results.Ok(new { Message = "Transfer completed successfully" });
+        }
+        catch (InvalidOperationException ex)
         {
-            var animal = await repo.GetByIdAsync(id);
-            if (animal is null) return Results.NotFound();
+            return Results.BadRequest(new { Error = ex.Message });
+        }
+    }
 
-            await repo.DeleteAsync(id);
-            return Results.NoContent();
-        })
-        .WithName("DeleteAnimal")
-        .Produces(204)
-        .Produces(404);
+    private static async Task<IResult> DeleteAnimal(
+        int id,
+        IAnimalRepository repo)
+    {
+        await repo.DeleteAsync(id);
+        return Results.NoContent();
+    }
+
+    private static FoodType GetFoodType(string foodName)
+    {
+        try
+        {
+            return FoodType.FromString(foodName);
+        }
+        catch
+        {
+            return FoodType.GetRandom();
+        }
     }
 }

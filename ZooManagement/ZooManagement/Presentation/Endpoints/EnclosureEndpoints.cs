@@ -2,57 +2,62 @@
 using Domain.Interfaces;
 using Domain.ValueObjects;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.OpenApi.Any;
-using Microsoft.OpenApi.Models;
 using Presentation.DTOs;
+
+namespace Presentation.Endpoints;
 
 public static class EnclosureEndpoints
 {
-
-    public static void MapEnclosureEndpoints(this WebApplication app)
+    public static RouteGroupBuilder MapEnclosureApi(this RouteGroupBuilder group)
     {
-        var group = app.MapGroup("/enclosures")
-            .WithTags("Enclosures");
+        group.MapGet("/", async (IEnclosureRepository repo) =>
+            Results.Ok(await repo.GetAllAsync()))
+            .WithName("GetAllEnclosures");
 
-        group.MapPost("/", async (
-        [FromBody] EnclosureDto dto,
-        IEnclosureRepository repo) =>
-        {
-            var validationErrors = new List<string>();
+        group.MapPost("/", AddEnclosure)
+            .WithName("AddEnclosure")
+            .Accepts<EnclosureDto>("application/json")
+            .Produces<Enclosure>(201);
 
-            if (dto.Size <= 0) validationErrors.Add("Size must be greater than 0");
-            if (dto.MaxCapacity <= 0) validationErrors.Add("MaxCapacity must be greater than 0");
+        group.MapDelete("/{id}", DeleteEnclosure)
+            .WithName("DeleteEnclosure")
+            .Produces(204)
+            .Produces(404);
 
-            if (validationErrors.Any())
-                return Results.BadRequest(new { Errors = validationErrors });
-
-            var enclosureType = EnclosureType.FromString(dto.Type);
-
-            var enclosure = new Enclosure(
-                enclosureType,
-                dto.Size,
-                dto.MaxCapacity);
-
-            await repo.AddAsync(enclosure);
-
-            return Results.Created($"/enclosures/{enclosure.Id}", new
-            {
-                enclosure.Id,
-                AssignedType = enclosureType.Name,
-                dto.Size,
-                dto.MaxCapacity
-            });
-        })
-        .WithName("AddEnclosure")
-        .Accepts<EnclosureDto>("application/json")
-        .Produces(201)
-        .Produces(400);
-
-
-
-
-
-
+        return group;
     }
 
+    private static async Task<IResult> AddEnclosure(
+        [FromBody] EnclosureDto dto,
+        IEnclosureRepository repo)
+    {
+        var enclosureType = GetEnclosureType(dto.Type);
+        var enclosure = new Enclosure(
+            enclosureType,
+            dto.Size,
+            dto.MaxCapacity);
+
+        await repo.AddAsync(enclosure);
+        return Results.Created($"/enclosures/{enclosure.Id}", enclosure);
+    }
+
+    private static async Task<IResult> DeleteEnclosure(
+        int id,
+        IEnclosureRepository repo)
+    {
+        await repo.DeleteAsync(id);
+        return Results.NoContent();
+    }
+
+    private static EnclosureType GetEnclosureType(string typeName)
+    {
+        try
+        {
+            return EnclosureType.FromString(typeName);
+        }
+        catch
+        {
+            return EnclosureType.GetRandomType();
+        }
+    }
 }

@@ -1,5 +1,7 @@
-﻿namespace Domain.Events;
-public abstract class DomainEvent
+﻿namespace Domain.Events
 {
-    public DateTime OccurredOn { get; } = DateTime.UtcNow;
+    public abstract class DomainEvent
+    {
+        public DateTime OccurredOn { get; } = DateTime.UtcNow;
+    }
 }
