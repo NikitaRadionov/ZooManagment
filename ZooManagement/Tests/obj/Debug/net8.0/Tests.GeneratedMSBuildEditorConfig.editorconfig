@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Tests
-build_property.ProjectDir = C:\Users\Nikita\Desktop\КПО HW2\Моё\githubb\ZooManagment\ZooManagement\Tests\
+build_property.ProjectDir = C:\Users\Nikita\Desktop\КПО HW2\Моё\local\ZooManagement\Tests\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

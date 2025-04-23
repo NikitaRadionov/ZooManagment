@@ -1,26 +1,20 @@
 [
   {
-    "ContainingType": "Presentation.Endpoints.AnimalEndpoints\u002B\u003C\u003Ec",
-    "Method": "\u003CMapAnimalApi\u003Eb__0_0",
-    "RelativePath": "animals/",
+    "ContainingType": "Presentation.Controllers.AnimalController",
+    "Method": "GetAllAnimals",
+    "RelativePath": "api/Animal",
     "HttpMethod": "GET",
-    "IsController": false,
+    "IsController": true,
     "Order": 0,
     "Parameters": [],
-    "ReturnTypes": [
-      {
-        "Type": "System.Void",
-        "MediaTypes": [],
-        "StatusCode": 200
-      }
-    ]
+    "ReturnTypes": []
   },
   {
-    "ContainingType": "Presentation.Endpoints.AnimalEndpoints",
+    "ContainingType": "Presentation.Controllers.AnimalController",
     "Method": "AddAnimal",
-    "RelativePath": "animals/",
+    "RelativePath": "api/Animal",
     "HttpMethod": "POST",
-    "IsController": false,
+    "IsController": true,
     "Order": 0,
     "Parameters": [
       {
@@ -29,25 +23,14 @@
         "IsRequired": true
       }
     ],
-    "ReturnTypes": [
-      {
-        "Type": "System.Void",
-        "MediaTypes": [],
-        "StatusCode": 201
-      },
-      {
-        "Type": "System.Void",
-        "MediaTypes": [],
-        "StatusCode": 400
-      }
-    ]
+    "ReturnTypes": []
   },
   {
-    "ContainingType": "Presentation.Endpoints.AnimalEndpoints",
+    "ContainingType": "Presentation.Controllers.AnimalController",
     "Method": "DeleteAnimal",
-    "RelativePath": "animals/{id}",
+    "RelativePath": "api/Animal/{id}",
     "HttpMethod": "DELETE",
-    "IsController": false,
+    "IsController": true,
     "Order": 0,
     "Parameters": [
       {
@@ -56,41 +39,24 @@
         "IsRequired": true
       }
     ],
-    "ReturnTypes": [
-      {
-        "Type": "System.Void",
-        "MediaTypes": [],
-        "StatusCode": 204
-      },
-      {
-        "Type": "System.Void",
-        "MediaTypes": [],
-        "StatusCode": 404
-      }
-    ]
+    "ReturnTypes": []
   },
   {
-    "ContainingType": "Presentation.Endpoints.AnimalEndpoints\u002B\u003C\u003Ec",
-    "Method": "\u003CMapAnimalApi\u003Eb__0_1",
-    "RelativePath": "animals/all",
+    "ContainingType": "Presentation.Controllers.AnimalController",
+    "Method": "GetZooStatistics",
+    "RelativePath": "api/Animal/statistics",
     "HttpMethod": "GET",
-    "IsController": false,
+    "IsController": true,
     "Order": 0,
     "Parameters": [],
-    "ReturnTypes": [
-      {
-        "Type": "System.Void",
-        "MediaTypes": [],
-        "StatusCode": 200
-      }
-    ]
+    "ReturnTypes": []
   },
   {
-    "ContainingType": "Presentation.Endpoints.AnimalEndpoints",
+    "ContainingType": "Presentation.Controllers.AnimalController",
     "Method": "TransferAnimal",
-    "RelativePath": "animals/transfer",
+    "RelativePath": "api/Animal/transfer",
     "HttpMethod": "POST",
-    "IsController": false,
+    "IsController": true,
     "Order": 0,
     "Parameters": [
       {
@@ -99,41 +65,24 @@
         "IsRequired": true
       }
     ],
-    "ReturnTypes": [
-      {
-        "Type": "System.Void",
-        "MediaTypes": [],
-        "StatusCode": 200
-      },
-      {
-        "Type": "System.Void",
-        "MediaTypes": [],
-        "StatusCode": 400
-      }
-    ]
+    "ReturnTypes": []
   },
   {
-    "ContainingType": "Presentation.Endpoints.EnclosureEndpoints\u002B\u003C\u003Ec",
-    "Method": "\u003CMapEnclosureApi\u003Eb__0_0",
-    "RelativePath": "enclosures/",
+    "ContainingType": "Presentation.Controllers.EnclosureController",
+    "Method": "GetAllEnclosures",
+    "RelativePath": "api/Enclosure",
     "HttpMethod": "GET",
-    "IsController": false,
+    "IsController": true,
     "Order": 0,
     "Parameters": [],
-    "ReturnTypes": [
-      {
-        "Type": "System.Void",
-        "MediaTypes": [],
-        "StatusCode": 200
-      }
-    ]
+    "ReturnTypes": []
   },
   {
-    "ContainingType": "Presentation.Endpoints.EnclosureEndpoints",
+    "ContainingType": "Presentation.Controllers.EnclosureController",
     "Method": "AddEnclosure",
-    "RelativePath": "enclosures/",
+    "RelativePath": "api/Enclosure",
     "HttpMethod": "POST",
-    "IsController": false,
+    "IsController": true,
     "Order": 0,
     "Parameters": [
       {
@@ -142,22 +91,14 @@
         "IsRequired": true
       }
     ],
-    "ReturnTypes": [
-      {
-        "Type": "Domain.Entities.Enclosure",
-        "MediaTypes": [
-          "application/json"
-        ],
-        "StatusCode": 201
-      }
-    ]
+    "ReturnTypes": []
   },
   {
-    "ContainingType": "Presentation.Endpoints.EnclosureEndpoints",
+    "ContainingType": "Presentation.Controllers.EnclosureController",
     "Method": "DeleteEnclosure",
-    "RelativePath": "enclosures/{id}",
+    "RelativePath": "api/Enclosure/{id}",
     "HttpMethod": "DELETE",
-    "IsController": false,
+    "IsController": true,
     "Order": 0,
     "Parameters": [
       {
@@ -166,43 +107,24 @@
         "IsRequired": true
       }
     ],
-    "ReturnTypes": [
-      {
-        "Type": "System.Void",
-        "MediaTypes": [],
-        "StatusCode": 204
-      },
-      {
-        "Type": "System.Void",
-        "MediaTypes": [],
-        "StatusCode": 404
-      }
-    ]
+    "ReturnTypes": []
   },
   {
-    "ContainingType": "FeedingScheduleEndpoints\u002B\u003C\u003Ec",
-    "Method": "\u003CMapFeedingScheduleApi\u003Eb__2_0",
-    "RelativePath": "feeding-schedules/",
+    "ContainingType": "Presentation.Controllers.FeedingScheduleController",
+    "Method": "GetAll",
+    "RelativePath": "api/FeedingSchedule",
     "HttpMethod": "GET",
-    "IsController": false,
+    "IsController": true,
     "Order": 0,
     "Parameters": [],
-    "ReturnTypes": [
-      {
-        "Type": "System.Collections.Generic.List\u00601[[Domain.Entities.FeedingSchedule, ZooManagement, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
-        "MediaTypes": [
-          "application/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
+    "ReturnTypes": []
   },
   {
-    "ContainingType": "FeedingScheduleEndpoints",
-    "Method": "AddFeedingSchedule",
-    "RelativePath": "feeding-schedules/",
+    "ContainingType": "Presentation.Controllers.FeedingScheduleController",
+    "Method": "Add",
+    "RelativePath": "api/FeedingSchedule",
     "HttpMethod": "POST",
-    "IsController": false,
+    "IsController": true,
     "Order": 0,
     "Parameters": [
       {
@@ -211,30 +133,14 @@
         "IsRequired": true
       }
     ],
-    "ReturnTypes": [
-      {
-        "Type": "System.Void",
-        "MediaTypes": [],
-        "StatusCode": 201
-      },
-      {
-        "Type": "System.Void",
-        "MediaTypes": [],
-        "StatusCode": 400
-      },
-      {
-        "Type": "System.Void",
-        "MediaTypes": [],
-        "StatusCode": 404
-      }
-    ]
+    "ReturnTypes": []
   },
   {
-    "ContainingType": "FeedingScheduleEndpoints",
+    "ContainingType": "Presentation.Controllers.FeedingScheduleController",
     "Method": "CompleteFeeding",
-    "RelativePath": "feeding-schedules/{id}/complete",
+    "RelativePath": "api/FeedingSchedule/{id}/complete",
     "HttpMethod": "POST",
-    "IsController": false,
+    "IsController": true,
     "Order": 0,
     "Parameters": [
       {
@@ -243,28 +149,6 @@
         "IsRequired": true
       }
     ],
-    "ReturnTypes": [
-      {
-        "Type": "System.Object",
-        "MediaTypes": [
-          "application/json"
-        ],
-        "StatusCode": 200
-      },
-      {
-        "Type": "System.String",
-        "MediaTypes": [
-          "application/json"
-        ],
-        "StatusCode": 404
-      },
-      {
-        "Type": "System.String",
-        "MediaTypes": [
-          "application/json"
-        ],
-        "StatusCode": 400
-      }
-    ]
+    "ReturnTypes": []
   }
 ]
